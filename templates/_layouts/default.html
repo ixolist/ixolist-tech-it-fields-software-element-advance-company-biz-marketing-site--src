@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <script src="../assets/scripts/script.js"></script>
+  <head>
+    <title>
+      {{ page.title }}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/styles/css/style.css" rel="stylesheet">
+    <!-- Include fonts -->
+    {% include fonts.html %}
+    <!-- Include animations -->
+    {% include animations.html %}
+  </head>
+  <body>
+    <div class="body__section body__section--first">
+      <div class="section__container">
+        <div class="container">
+          <div class="container__left-side">
+            <div class="left-side__block">
+              <div class="container__title animate__animated animate__fadeInDown">
+                {{ page.main-title }}
+              </div>
+              <div class="container__subtitle animate__animated animate__fadeInDown">
+                {{ page.main-subtitle}}
+              </div>
+              <a style="text-decoration: none; width: 100%;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
+                <button class="container__btn animate__animated animate__fadeInUp">
+                  Try
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="container__right-side">
+            <img class="phone-img animate__animated animate__fadeInRight" src="assets/graphics/images/phone.png"></img>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body__section body__section--second">
+      <div class="section__container">
+        <div class="container">
+          <div class="container__left-side">
+            <div class="left-side__block">
+              <div class="block-text animate__animated animate__fadeInLeft">
+                {{ page.second-block-text}}
+              </div>
+            </div>
+          </div>
+          <div class="container__right-side">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body__section body__section--third">
+      <div class="section__container">
+        <div class="container">
+          <div class="container__left-side">
+            <div class="services__buttons animate__animated animate__fadeInLeft">
+              <div class="services__btn" id="Offering">
+                {{ page.offering }}
+              </div>
+              <div></div>
+              <div class="services__btn" id="Emission">
+                {{ page.emission }}
+              </div>
+              <div>
+              </div>
+              <div class="services__btn" id="Me">
+                {{ page.community }}
+              </div>
+              <div>
+              </div>
+              <div class="services__btn" id="Bank">
+                {{ page.bank }}
+              </div>
+              <div></div>
+              <div class="services__btn" id="Organizations">
+                {{ page.enterprise}}
+              </div>
+            </div>
+          </div>
+          <div class="container__right-side">
+            <div class="right-side__description block-text--white animate__animated animate__fadeInRight">
+              <div class="description" id="OfferingDescription">
+                {{ page.offering-description }}
+                <a style="text-decoration: none;" href="https://ixolist-userapp-offering-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
+              </div>
+              <div class="description" id="BankDescription">
+                {{ page.bank-description }}
+                <a style="text-decoration: none;" href="https://ixolist-userapp-bank-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
+              </div>
+              <div class="description" id="EmissionDescription">
+                {{ page.emission-description }}
+                <a style="text-decoration: none;" href="https://ixolist-userapp-emission-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
+              </div>
+              <div class="description" id="EnterpriseDescription">
+                {{ page.enterprise-description }}
+                <a style="text-decoration: none;" href="https://ixolist-userapp-org-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
+              </div>
+              <div class="description" id="CommunityDescription">
+                {{ page.community-description }}
+                <a style="text-decoration: none;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body__section body__section--fourth">
+      <div class="section__container">
+        <div id="contact" class="body__section body__section--contact">
+          <div class="container__contact">
+            <div class="contact-section__first-column">
+              <div class="first-column__title">Get Started</div>
+            </div>
+            <div class="contact-section__second-column">
+              <div class="second-column__title">{{ page.contact-section-title }}</div>
+              <form
+                action="{{ site.usebasinUrl }}"
+                method="POST"
+                enctype="multipart/form-data"
+                id="form"
+              >
+                <div class="form__input">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" />
+                </div>
+                <div class="form__input">
+                  <label for="email">Your Email</label>
+                  <input type="email" name="email" required />
+                </div>
+                <div class="form__input">
+                  <label for="message">Your Message</label>
+                  <textarea name="message"></textarea>
+                </div>
+                <button type="submit">Contact Us</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
