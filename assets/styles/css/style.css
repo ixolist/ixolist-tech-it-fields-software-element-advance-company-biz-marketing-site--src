@@ -127,6 +127,9 @@ html, body {
 
 .phone-img {
   max-height: 700px;
+  transform: rotate(7deg) !important;
+  margin-top: 100px;
+  display: none;
 }
 
 .block-text {
@@ -304,10 +307,14 @@ form > button:hover {
   
   .phone-img {
     max-height: 320px; /* Уменьшаем высоту изображения телефона на мобильных устройствах */
-    margin-top: 60px;
-    max-width: 160px;
+    margin-top: 100px;
+    max-width: 130px;
     width: 100%;
     height: auto;
+  }
+
+  .body__section--first > .section__container > .container > .container__right-side {
+    padding-right: 40px;
   }
 
   .body__section--second > .section__container > .container > .container__right-side {

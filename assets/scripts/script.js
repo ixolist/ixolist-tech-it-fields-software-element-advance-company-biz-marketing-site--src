@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
+  
+  const images = document.querySelectorAll('.phone-img');
+  let currentImageIndex = 0;
+  images[currentImageIndex].style.display = 'flex';
+  setInterval(changeImage, 4000);
+
+
   const buttons = document.querySelectorAll('.services__btn');
   
   buttons.forEach(button => {
@@ -26,5 +33,11 @@ document.addEventListener("DOMContentLoaded", function() {
       if (selectedDescription) {
           selectedDescription.style.display = 'flex';
       }
+  }
+
+  function changeImage() {
+    images[currentImageIndex].style.display = 'none';
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    images[currentImageIndex].style.display = 'flex';
   }
 });
