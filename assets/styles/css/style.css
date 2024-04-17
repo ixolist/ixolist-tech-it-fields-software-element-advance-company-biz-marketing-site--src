@@ -50,8 +50,49 @@ html, body {
 }
 
 .body__section--fourth {
+  background-image: url(../../graphics/images/background-rotate.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: #fff; */
+  /* height: 450px; */
+}
+
+.body__section--tags {
+  /* background-image: url(../../graphics/images/background-rotate.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; */
   background: #fff;
-  height: 450px;
+  height: fit-content;
+}
+
+.tags-container--desktop {
+  padding: 40px !important;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tags-container--mobile {
+  padding: 40px !important;
+  width: 100%;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tag {
+  color: #1976D2;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  margin: 4px;
+}
+
+.tag:hover {
+  color: #0056b3;
 }
 
 .container {
@@ -216,7 +257,7 @@ html, body {
 }
 
 .contact-section__first-column > .first-column__title {
-  color: #1976D2;
+  color: #fff;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.02em;
@@ -232,7 +273,7 @@ html, body {
 }
 
 .contact-section__second-column > .second-column__title {
-  color: #1976D2;;
+  color: #fff;;
   font-size: 24px;
   line-height: 46px;
   letter-spacing: 0.01em;
@@ -250,17 +291,17 @@ html, body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.01em;
-  color: #1976D2;;
+  color: #fff;;
   margin-bottom: 16px;
 }
 
 .form__input > input {
   height: 56px;
   border-radius: 28px;
-  border: 2px solid #1976D2;;
+  border: 2px solid #fff;;
   outline: none;
   background: transparent;
-  color: #1976D2;;
+  color: #fff;;
   font-size: 16px;
   padding: 0 24px;
 }
@@ -269,10 +310,10 @@ html, body {
   padding: 24px;
   min-height: 216px;
   border-radius: 28px;
-  border: 2px solid #1976D2;
+  border: 2px solid #fff;
   outline: none;
   background: transparent;
-  color: #1976D2;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -435,6 +476,14 @@ form > button:hover {
 
   .description {
     padding: 0;
+  }
+
+  .tags-container--mobile {
+    display: flex;
+  }
+  
+  .tags-container--desktop {
+    display: none;
   }
 }
 
