@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <script src="../assets/scripts/script.js"></script>
+  <script src="{{baseurl}}/assets/scripts/home/script.js"></script>
   <head>
     <title>
       {{ page.title }}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../assets/styles/css/style.css" rel="stylesheet">
+    <link href="{{baseurl}}/assets/styles/css/style.css" rel="stylesheet">
     <!-- Include fonts -->
     {% include fonts.html %}
     <!-- Include animations -->
@@ -27,7 +27,7 @@
               </div>
               <a class="animate__animated animate__fadeInUp" style="text-decoration: none; width: 100%;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
                 <button class="container__btn">
-                  {{ page.try}}
+                  {{ page.try }}
                 </button>
               </a>
             </div>
@@ -85,7 +85,7 @@
                 <div class="description__text">
                   {{ page.offering-description }}
                 </div>
-                <a style="text-decoration: none;" href="https://ixolist-userapp-offering-dev.netlify.app/" target="_blank">
+                <a style="text-decoration: none;" href="/apps/offering">
                   <button class="container__btn" >
                     {{ page.see-more }}
                   </button>
@@ -95,7 +95,7 @@
                 <div class="description__text">
                   {{ page.bank-description }}
                 </div>
-                <a style="text-decoration: none;" href="https://ixolist-userapp-bank-dev.netlify.app/" target="_blank">
+                <a style="text-decoration: none;" href="/apps/bank">
                   <button class="container__btn" >
                     {{ page.see-more }}
                   </button>
@@ -105,7 +105,7 @@
                 <div class="description__text">
                   {{ page.minting-description }}
                 </div>
-                <a style="text-decoration: none;" href="https://ixolist-userapp-minting-dev.netlify.app/" target="_blank">
+                <a style="text-decoration: none;" href="/apps/minting">
                   <button class="container__btn" >
                     {{ page.see-more }}
                   </button>
@@ -115,7 +115,7 @@
                 <div class="description__text">
                   {{ page.enterprise-description }}
                 </div>
-                <a style="text-decoration: none;" href="https://ixolist-userapp-org-dev.netlify.app/" target="_blank">
+                <a style="text-decoration: none;" href="/apps/org">
                   <button class="container__btn" >
                     {{ page.see-more }}
                   </button>
@@ -125,7 +125,7 @@
                 <div class="description__text">
                   {{ page.community-description }}
                 </div>
-                <a style="text-decoration: none;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
+                <a style="text-decoration: none;" href="/apps/me">
                   <button class="container__btn" >
                     {{ page.see-more }}
                   </button>

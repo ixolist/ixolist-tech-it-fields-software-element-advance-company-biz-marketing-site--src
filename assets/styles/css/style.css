@@ -364,7 +364,35 @@ form > button:hover {
   justify-content: center;
 }
 
+.apps-body {
+  background-image: url(../../graphics/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.apps-body__detail-description {
+  font-size: 28px;
+  padding: 40px;
+  text-align: justify;
+}
+
+.container-app {
+  color: #fff;
+}
+
+.container-app > .container__left-side {
+  padding-bottom: 0;
+}
+
+.container-app > .container__rigth-side {
+  padding: 40px;
+}
+
 @media only screen and (max-width: 768px) {
+  .apps-body__detail-description {
+    font-size: 18px;
+  }
+
   .section__container {
     margin: 0 20px; /* Уменьшаем отступы для маленьких экранов */
   }

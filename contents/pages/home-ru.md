@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: home
 title: IXOlist
-permalink: /index.html
+permalink: /
 lang: ru
 page_id: home
 
