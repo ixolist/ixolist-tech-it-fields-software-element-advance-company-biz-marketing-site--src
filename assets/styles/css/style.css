@@ -376,6 +376,38 @@ form > button:hover {
   text-align: justify;
 }
 
+.apps-body__header {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  padding: 40px 40px 0 40px;
+  
+}
+
+.header-logo {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+  padding: 6px;
+}
+
+.header-logo:hover > a {
+  color: #1976D2;
+  transition: .3s;
+  border: 7px solid #1976D2;
+}
+
+.header-logo > a {
+  color: #fff;
+  text-decoration: none;
+  transition: .3s;
+  border: 7px solid #fff;
+  padding: 6px;
+}
+
 .container-app {
   color: #fff;
 }
