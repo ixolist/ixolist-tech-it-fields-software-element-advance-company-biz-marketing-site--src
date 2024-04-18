@@ -138,50 +138,13 @@
     </div>
     <div class="body__section body__section--tags">
       <div class="section__container">
-        <div class="tags-container--desktop">
-          <a href="#" class="tag" data-weight="27">Bitcoin</a>
-          <a href="#" class="tag" data-weight="20">Ethereum</a>
-          <a href="#" class="tag" data-weight="34">Blockchain</a>
-          <a href="#" class="tag" data-weight="18">Cryptocurrency</a>
-          <a href="#" class="tag" data-weight="23">Decentralization</a>
-          <a href="#" class="tag" data-weight="14">Smart Contracts</a>
-          <a href="#" class="tag" data-weight="12">NFT</a>
-          <a href="#" class="tag" data-weight="20">Altcoin</a>
-          <a href="#" class="tag" data-weight="12">Mining</a>
-          <a href="#" class="tag" data-weight="22">Wallet</a>
-          <a href="#" class="tag" data-weight="4">Token</a>
-          <a href="#" class="tag" data-weight="7">Digital Asset</a>
-          <a href="#" class="tag" data-weight="10">ICO</a>
-          <a href="#" class="tag" data-weight="22">DeFi</a>
-          <a href="#" class="tag" data-weight="16">Proof of Work</a>
-          <a href="#" class="tag" data-weight="23">Proof of Stake</a>
-          <a href="#" class="tag" data-weight="5">Consensus</a>
-          <a href="#" class="tag" data-weight="12">Hard Fork</a>
-          <a href="#" class="tag" data-weight="17">Soft Fork</a>
-          <a href="#" class="tag" data-weight="26">Hashing</a>
-        </div>
-        <div class="tags-container--mobile">
-          <a href="#" class="tag" data-weight="7">Bitcoin</a>
-          <a href="#" class="tag" data-weight="3">Ethereum</a>
-          <a href="#" class="tag" data-weight="12">Blockchain</a>
-          <a href="#" class="tag" data-weight="5">Cryptocurrency</a>
-          <a href="#" class="tag" data-weight="2">Decentralization</a>
-          <a href="#" class="tag" data-weight="5">Smart Contracts</a>
-          <a href="#" class="tag" data-weight="6">NFT</a>
-          <a href="#" class="tag" data-weight="10">Altcoin</a>
-          <a href="#" class="tag" data-weight="8">Mining</a>
-          <a href="#" class="tag" data-weight="3">Wallet</a>
-          <a href="#" class="tag" data-weight="4">Token</a>
-          <a href="#" class="tag" data-weight="7">Digital Asset</a>
-          <a href="#" class="tag" data-weight="10">ICO</a>
-          <a href="#" class="tag" data-weight="5">DeFi</a>
-          <a href="#" class="tag" data-weight="11">Proof of Work</a>
-          <a href="#" class="tag" data-weight="3">Proof of Stake</a>
-          <a href="#" class="tag" data-weight="5">Consensus</a>
-          <a href="#" class="tag" data-weight="8">Hard Fork</a>
-          <a href="#" class="tag" data-weight="6">Soft Fork</a>
-          <a href="#" class="tag" data-weight="1">Hashing</a>
-        </div>
+        {% if page.lang == "en" %}
+          {% include cloud-tags/cloud-tags-en-desktop.html %}
+          {% include cloud-tags/cloud-tags-en-mobile.html %}
+        {% else %}
+          {% include cloud-tags/cloud-tags-ru-desktop.html %}
+          {% include cloud-tags/cloud-tags-ru-mobile.html %}
+        {% endif %}
       </div>
     </div>
     <div class="body__section body__section--fourth">

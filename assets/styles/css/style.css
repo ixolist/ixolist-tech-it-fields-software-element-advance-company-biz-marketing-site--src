@@ -65,7 +65,7 @@ html, body {
   height: fit-content;
 }
 
-.tags-container--desktop {
+.tags-container-en--desktop {
   padding: 40px !important;
   width: 100%;
   display: flex;
@@ -74,7 +74,25 @@ html, body {
   gap: 10px;
 }
 
-.tags-container--mobile {
+.tags-container-en--mobile {
+  padding: 40px !important;
+  width: 100%;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tags-container-ru--desktop {
+  padding: 40px !important;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tags-container-ru--mobile {
   padding: 40px !important;
   width: 100%;
   display: none;
@@ -478,11 +496,19 @@ form > button:hover {
     padding: 0;
   }
 
-  .tags-container--mobile {
+  .tags-container-en--mobile {
     display: flex;
   }
   
-  .tags-container--desktop {
+  .tags-container-en--desktop {
+    display: none;
+  }
+
+  .tags-container-ru--mobile {
+    display: flex;
+  }
+  
+  .tags-container-ru--desktop {
     display: none;
   }
 }
