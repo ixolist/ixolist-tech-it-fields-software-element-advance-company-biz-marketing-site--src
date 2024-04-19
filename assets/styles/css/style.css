@@ -420,6 +420,25 @@ form > button:hover {
   padding: 40px;
 }
 
+#breadcrumbs {
+  color: #fff !important;
+  font-size: 26px;
+  font-weight: 700;
+  width: 100%;
+  overflow: scroll;
+}
+
+#breadcrumbs > a {
+  text-decoration: none;
+  color: #fff;
+  transition: .3s;
+}
+
+#breadcrumbs > a:hover {
+  color: #1976D2;
+  transition: .3s;
+}
+
 @media only screen and (max-width: 768px) {
   .apps-body__detail-description {
     font-size: 18px;
