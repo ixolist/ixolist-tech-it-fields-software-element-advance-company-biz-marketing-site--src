@@ -2,4 +2,4 @@ name: Main
 id: mintingDiagramMain
 iframePath: https://minting.ixolist.com/embed/1?apiKey=&diagram=Minting_level-1&diagramSelector=false&iframe=mintingDiagramMain
 scriptPath: https://minting.ixolist.com/static/js/structurizr-embed.js
-url: ./main
+detailsUrl: ./main
