@@ -7,7 +7,7 @@ page_id: home
 
 # global title
 main-title: IXOlist
-main-subtitle: The open door to<br> the crypto world is with us!
+main-subtitle: The open door to the crypto world is with us!
 
 try: Try
 

@@ -13,6 +13,7 @@ html, body {
   margin: 0;
   padding: 0;
   position: relative;
+  overflow-x: hidden;
 }
 
 .body__section {
@@ -437,6 +438,122 @@ form > button:hover {
 #breadcrumbs > a:hover {
   color: #1976D2;
   transition: .3s;
+}
+
+@media screen and (max-width: 400px) {
+  .container__title {
+    font-size: 36px !important; /* Уменьшаем размер заголовка на мобильных устройствах */
+  }
+
+  .container__subtitle {
+    font-size: 16px !important; /* Уменьшаемразмер подзаголовка на мобильных устройствах */
+    line-height: 32px;
+  }
+  
+  .container__btn {
+    font-size: 18px; /* Уменьшаем размер кнопок на мобильных устройствах */
+    margin-top: 20px; /* Уменьшаем отступ кнопок от заголовка на мобильных устройствах */
+  }
+
+  .header-logo {
+    color: #fff;
+    font-size: 18px !important;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+    padding: 6px;
+  }
+  
+  .header-logo:hover > a {
+    color: #1976D2;
+    transition: .3s;
+    border: 3px solid #1976D2;
+  }
+  
+  .header-logo > a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    border: 3px solid #fff;
+    padding: 6px;
+  }
+
+  #breadcrumbs {
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    overflow: scroll;
+  }
+  
+  #breadcrumbs > a {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+  }
+  
+  #breadcrumbs > a:hover {
+    color: #1976D2;
+    transition: .3s;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 420px) {
+  .container__title {
+    font-size: 48px !important; /* Уменьшаем размер заголовка на мобильных устройствах */
+  }
+
+  .container__subtitle {
+    font-size: 16px !important; /* Уменьшаемразмер подзаголовка на мобильных устройствах */
+    line-height: 32px;
+  }
+  
+  .container__btn {
+    font-size: 18px; /* Уменьшаем размер кнопок на мобильных устройствах */
+    margin-top: 20px; /* Уменьшаем отступ кнопок от заголовка на мобильных устройствах */
+  }
+
+  .header-logo {
+    color: #fff;
+    font-size: 20px !important;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+    padding: 6px;
+  }
+  
+  .header-logo:hover > a {
+    color: #1976D2;
+    transition: .3s;
+    border: 3px solid #1976D2;
+  }
+  
+  .header-logo > a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    border: 3px solid #fff;
+    padding: 6px;
+  }
+
+  #breadcrumbs {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    overflow: scroll;
+  }
+  
+  #breadcrumbs > a {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+  }
+  
+  #breadcrumbs > a:hover {
+    color: #1976D2;
+    transition: .3s;
+  }
 }
 
 @media only screen and (max-width: 768px) {
