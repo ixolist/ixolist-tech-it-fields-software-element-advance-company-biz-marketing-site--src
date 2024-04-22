@@ -496,6 +496,11 @@ form > button:hover {
     color: #1976D2;
     transition: .3s;
   }
+
+  .diagram-card {
+    font-size: 18px !important;
+    border: 2px solid #fff !important;
+  }
 }
 
 @media screen and (min-width: 400px) and (max-width: 420px) {
@@ -554,9 +559,18 @@ form > button:hover {
     color: #1976D2;
     transition: .3s;
   }
+
+  .diagram-card {
+    font-size: 18px !important;
+    border: 2px solid #fff !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .diagram-card {
+    font-size: 20px !important;
+    border: 2px solid #fff !important;
+  }
   .apps-body__detail-description {
     font-size: 18px;
   }
@@ -737,4 +751,27 @@ form > button:hover {
 .multilang-buttons > a {
   text-decoration: none !important;
   color: #fff;
+}
+
+.diagrams__block {
+  margin-top: 40px;
+  display: flex;
+}
+
+.diagram-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 4px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.diagram-card:hover {
+  transition: .3s;
+  border: 4px solid #1976D2;
+  background: #1976D2;
 }
