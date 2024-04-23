@@ -445,16 +445,28 @@ form > button:hover {
 }
 
 .diagram__container {
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-y: scroll;
+  position: relative;
+}
+
+.diagram__container-scroll {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .diagram__container > iframe {
-  width: 100%;
-  border: 2px solid #fff;
+  width: 1px;
+  min-width: 100%;
+  border: 1px solid #fff;
+  flex-grow:1; margin:0; padding:0; border:0;
+}
+
+@media (orientation: landscape) and (max-width: 1000px) {
+  .diagram__container-scroll {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 400px) {

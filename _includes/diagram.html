@@ -1,6 +1,9 @@
+<script src="{{baseurl}}/assets/scripts/other/iframeResizer.min.js"></script>
 <div class="diagram__container" id="wrapper">
-  <iframe id="{{include.id}}" src="{{include.iframePath}}" width="100%" height="100%"></iframe>
+  <div class="diagram__container-scroll"></div>
+  <iframe id="{{include.id}}" src="{{include.iframePath}}"></iframe>
 </div>
 <script type="text/javascript" src="{{include.scriptPath}}"></script>
-
-
+<script>
+  iFrameResize({ log: true, autoResize: false }, '#{{include.id}}')
+</script>
