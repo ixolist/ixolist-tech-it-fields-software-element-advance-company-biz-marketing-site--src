@@ -426,7 +426,11 @@ form > button:hover {
   font-size: 26px;
   font-weight: 700;
   width: 100%;
-  overflow: scroll;
+  overflow: auto;
+}
+
+#breadcrumbs::-webkit-scrollbar {
+  display: none;
 }
 
 #breadcrumbs > a {
@@ -438,6 +442,19 @@ form > button:hover {
 #breadcrumbs > a:hover {
   color: #1976D2;
   transition: .3s;
+}
+
+.diagram__container {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.diagram__container > iframe {
+  width: 100%;
+  border: 2px solid #fff;
 }
 
 @media screen and (max-width: 400px) {
@@ -483,7 +500,7 @@ form > button:hover {
     font-size: 16px;
     font-weight: 700;
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
   }
   
   #breadcrumbs > a {
@@ -546,7 +563,7 @@ form > button:hover {
     font-size: 18px;
     font-weight: 700;
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
   }
   
   #breadcrumbs > a {
