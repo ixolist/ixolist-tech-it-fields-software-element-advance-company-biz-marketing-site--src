@@ -1,21 +1,10 @@
 <div class="diagram__container" id="wrapper">
-  <div id="layer"></div>
   <iframe id="{{include.id}}" src="{{include.iframePath}}"></iframe>
 </div>
 <script type="text/javascript" src="{{include.scriptPath}}"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="{{baseurl}}/assets/scripts/other/iframeResizer.min.js"></script>
+<script src="{{baseurl}}/assets/scripts/other/iframeResizer.contentWindow.min.js"></script>
 <script>
-  $('#layer').click(function(event){
-    var iframe = $({{include.id}}).get(0);
-    var iframeDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
-    // Find click position (coordinates)
-    var x = event.offsetX;
-    var y = event.offsetY;
-
-    // Trigger click inside iframe
-    var link = iframeDoc.elementFromPoint(x, y);
-    var newEvent = iframeDoc.createEvent('HTMLEvents');
-    newEvent.initEvent('click', true, true);
-    link.dispatchEvent(newEvent);
-});
+  iFrameResize({ log: true }, '#{{include.id}}')
 </script>
+
