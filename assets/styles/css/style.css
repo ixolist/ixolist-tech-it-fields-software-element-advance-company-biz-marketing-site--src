@@ -446,6 +446,10 @@ form > button:hover {
 
 .diagram__container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .diagram__container-scroll {
@@ -457,10 +461,7 @@ form > button:hover {
 }
 
 .diagram__container > iframe {
-  width: 1px;
-  min-width: 100%;
   border: 1px solid #fff;
-  flex-grow:1; margin:0; padding:0; border:0;
 }
 
 @media (orientation: landscape) and (max-width: 1000px) {
@@ -785,6 +786,7 @@ form > button:hover {
 .diagrams__block {
   margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .diagram-card {
@@ -797,6 +799,9 @@ form > button:hover {
   font-size: 24px;
   font-weight: 500;
   transition: .3s;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .diagram-card:hover {

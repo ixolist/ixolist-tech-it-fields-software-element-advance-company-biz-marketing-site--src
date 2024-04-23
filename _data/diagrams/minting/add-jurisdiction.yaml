@@ -1,0 +1,5 @@
+name: Add jurisdiction
+id: mintingDiagramAddJurisdiction
+iframePath: https://minting.ixolist.com/embed/1?apiKey=&diagram=Add_Jurisdiction_level-2&diagramSelector=false&iframe=mintingDiagramAddJurisdiction
+scriptPath: https://minting.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/minting/diagrams/add-jurisdiction/
