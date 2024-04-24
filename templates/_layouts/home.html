@@ -6,138 +6,224 @@
       {{ page.title }}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{baseurl}}/assets/styles/css/style.css" rel="stylesheet">
+    <!-- <link href="{{baseurl}}/assets/styles/css/style.css" rel="stylesheet"> -->
+     <link href="{{baseurl}}/assets/styles/css/new-styles.css" rel="stylesheet">
+
     <!-- Include fonts -->
     {% include fonts.html %}
     <!-- Include animations -->
     {% include animations.html %}
+    {% include bootstrap.html %}
   </head>
+
+  <div class="header sticky-top shadow-lg" style="
+    background: #1976D2;
+  ">
+    <div class="container d-flex">
+      <div class="col">
+        <div class="header-logo d-flex fs-5 p-3">
+          <a href="/">IXOlist</a>
+          {% include breadcrumbs.html %}
+        </div>
+      </div>
+      {% include multilang-buttons.html %}
+    </div>
+  </div>
   <body>
-    {% include multilang-buttons.html %}
-    <div class="body__section body__section--first">
-      <div class="section__container">
-        <div class="container">
-          <div class="container__left-side">
-            <div class="left-side__block">
-              <div class="container__title animate__animated animate__fadeInDown">
-                {{ page.main-title }}
-              </div>
-              <div class="container__subtitle animate__animated animate__fadeInDown">
-                {{ page.main-subtitle}}
-              </div>
-              <a class="animate__animated animate__fadeInUp" style="text-decoration: none; width: 100%;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
-                <button class="container__btn">
-                  {{ page.try }}
-                </button>
-              </a>
-            </div>
-          </div>
-          <div class="container__right-side">
-            <img class="phone-img" src="../assets/graphics/images/phone.png"></img>
-            <img class="phone-img" src="../assets/graphics/images/phone-2.png"></img>
-            <img class="phone-img" src="../assets/graphics/images/phone-3.png"></img>
-            <img class="phone-img" src="../assets/graphics/images/phone-4.png"></img>
-            <img class="phone-img" src="../assets/graphics/images/phone-5.png"></img>
+    <div class="section d-flex flex-column py-4" style="
+      background-image: url({{baseurl}}/assets/graphics/images/background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      ">
+      <div class="
+        container
+        d-flex
+        flex-row
+        justify-content-end
+        align-items-center"
+      >
+        <div class="col p-3 text-white d-flex flex-column aling-items-center animate__animated animate__fadeInDown">
+          <h1 class="display-1 fw-bold">{{ page.main-title }}</h1>
+          <h3 class="fw-light mt-4" style="line-height: 46px;">{{ page.main-subtitle}}</h1>
+          <a
+            href="https://ixolist-userapp-me-dev.netlify.app/"
+            class="btn btn-primary btn-lg mt-4 p-2"
+            style="
+              background: #1976D2;
+              max-width: 280px;
+              width: 100%;"
+            tabindex="-1"
+            role="button"
+            target="_blank"
+          >
+            {{ page.try }}
+          </a>
+        </div>
+        <div class="col animate__animated animate__fadeInRight">
+          <div class="container p-4 d-flex justify-content-end align-items-center">
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone.png"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-2.png"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-3.png"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-4.png"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-5.png"></img>
           </div>
         </div>
       </div>
     </div>
-    <div class="body__section body__section--second">
-      <div class="section__container">
-        <div class="container">
-          <div class="container__left-side">
-            <div class="left-side__block">
-              <div class="block-text animate__animated animate__fadeInLeft">
-                {{ page.second-block-text}}
-              </div>
+    <div class="section py-4" style="
+      background: #fff;
+    ">
+      <div class="
+        container
+        d-flex
+        flex-row
+        justify-content-center
+        align-items-center
+        animate__animated
+        animate__fadeInLeft
+      ">
+        <div class="col p-4 text-primary d-flex">
+          <h3 class="fw-light fs-4 text-center" style="
+            color: #1976D2;
+            line-height: 46px;"
+          >
+            {{ page.second-block-text}}
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="section py-4" style="
+      background-image: url({{baseurl}}/assets/graphics/images/background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    ">
+      <div class="
+        container
+        justify-content-center
+        align-items-center
+        desktop-services-block"
+      >
+        <div class="services-block__buttons col-6 p-4 text-white d-flex flex-column animate__animated animate__fadeInLeft">
+          <div class="services__btn fw-light" id="Bank" style="width: 100%; margin-bottom: 10px;">
+            {{ page.bank }}
+          </div>
+          <div class="services__buttons">
+            <div class="services__btn fw-light" id="Minting">
+              {{ page.minting }}
+            </div>
+            <div class="services__btn fw-light" id="Offering">
+              {{ page.offering }}
+            </div>
+            <div class="services__btn fw-light" id="Me">
+              {{ page.community }}
+            </div>
+            <div class="services__btn fw-light" id="Organizations">
+              {{ page.enterprise}}
             </div>
           </div>
-          <div class="container__right-side">
+        </div>
+        <div class="services-block__description col d-flex flex-column p-4 animate__animated animate__fadeInRight h-100">
+          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="OfferingDescription">
+            <div class="fs-5 h-100 fw-light text-white">
+              {{ page.offering-description }}
+            </div>
+            <a
+              href="/apps/offering"
+              class="btn btn-primary btn-lg mt-4 p-2"
+              style="
+                background: #1976D2;
+                max-width: 280px;
+                width: 100%;"
+              tabindex="-1"
+              role="button"
+            >
+              {{ page.see-more }}
+            </a>
+          </div>
+          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="BankDescription">
+            <div class="fs-5 h-100 fw-light text-white">
+              {{ page.bank-description }}
+            </div>
+            <a
+              href="/apps/bank"
+              class="btn btn-primary btn-lg mt-4 p-2"
+              style="
+                background: #1976D2;
+                max-width: 280px;
+                width: 100%;"
+              tabindex="-1"
+              role="button"
+            >
+              {{ page.see-more }}
+            </a>
+          </div>
+          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="MintingDescription">
+            <div class="fs-5 h-100 fw-light text-white">
+              {{ page.minting-description }}
+            </div>
+            <a
+              href="/apps/minting"
+              class="btn btn-primary btn-lg mt-4 p-2"
+              style="
+                background: #1976D2;
+                max-width: 280px;
+                width: 100%;"
+              tabindex="-1"
+              role="button"
+            >
+              {{ page.see-more }}
+            </a>
+          </div>
+          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="EnterpriseDescription">
+            <div class="fs-5 h-100 fw-light text-white">
+              {{ page.enterprise-description }}
+            </div>
+            <a
+              href="/apps/org"
+              class="btn btn-primary btn-lg mt-4 p-2"
+              style="
+                background: #1976D2;
+                max-width: 280px;
+                width: 100%;"
+              tabindex="-1"
+              role="button"
+            >
+              {{ page.see-more }}
+            </a>
+          </div>
+          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="CommunityDescription">
+            <div class="fs-5 h-100 fw-light text-white">
+              {{ page.community-description }}
+            </div>
+            <a
+              href="/apps/me"
+              class="btn btn-primary btn-lg mt-4 p-2"
+              style="
+                background: #1976D2;
+                max-width: 280px;
+                width: 100%;"
+              tabindex="-1"
+              role="button"
+            >
+              {{ page.see-more }}
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <div id="apps" class="body__section body__section--third">
-      <div class="section__container">
-        <div class="container">
-          <div class="container__left-side animate__animated animate__fadeInLeft">
-            <div class="services__btn" id="Bank" style="width: 100%; margin-bottom: 10px;">
-              {{ page.bank }}
-            </div>
-            <div class="services__buttons">
-              <div class="services__btn" id="Minting">
-                {{ page.minting }}
-              </div>
-              <div class="services__btn" id="Offering">
-                {{ page.offering }}
-              </div>
-              <div class="services__btn" id="Me">
-                {{ page.community }}
-              </div>
-              <div class="services__btn" id="Organizations">
-                {{ page.enterprise}}
-              </div>
-            </div>
-          </div>
-          <div class="container__right-side">
-            <div class="right-side__description block-text--white animate__animated animate__fadeInRight">
-              <div class="description" id="OfferingDescription">
-                <div class="description__text">
-                  {{ page.offering-description }}
-                </div>
-                <a style="text-decoration: none;" href="/apps/offering">
-                  <button class="container__btn" >
-                    {{ page.see-more }}
-                  </button>
-                </a>
-              </div>
-              <div class="description" id="BankDescription">
-                <div class="description__text">
-                  {{ page.bank-description }}
-                </div>
-                <a style="text-decoration: none;" href="/apps/bank">
-                  <button class="container__btn" >
-                    {{ page.see-more }}
-                  </button>
-                </a>
-              </div>
-              <div class="description" id="MintingDescription">
-                <div class="description__text">
-                  {{ page.minting-description }}
-                </div>
-                <a style="text-decoration: none;" href="/apps/minting">
-                  <button class="container__btn" >
-                    {{ page.see-more }}
-                  </button>
-                </a>
-              </div>
-              <div class="description" id="EnterpriseDescription">
-                <div class="description__text">
-                  {{ page.enterprise-description }}
-                </div>
-                <a style="text-decoration: none;" href="/apps/org">
-                  <button class="container__btn" >
-                    {{ page.see-more }}
-                  </button>
-                </a>
-              </div>
-              <div class="description" id="CommunityDescription">
-                <div class="description__text">
-                  {{ page.community-description }}
-                </div>
-                <a style="text-decoration: none;" href="/apps/me">
-                  <button class="container__btn" >
-                    {{ page.see-more }}
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="body__section body__section--tags">
-      <div class="section__container">
+    <div class="section py-4" style="
+      background: #fff;
+    ">
+      <div class="
+        container
+        d-flex
+        flex-row
+        justify-content-center
+        align-items-center
+        animate__animated
+        animate__fadeInLeft
+        p-4
+      ">
         {% if page.lang == "en" %}
           {% include cloud-tags/cloud-tags-en-desktop.html %}
           {% include cloud-tags/cloud-tags-en-mobile.html %}
@@ -147,37 +233,46 @@
         {% endif %}
       </div>
     </div>
-    <div class="body__section body__section--fourth">
-      <div class="section__container">
-        <div id="contact" class="body__section body__section--contact">
-          <div class="container__contact">
-            <div class="contact-section__first-column">
-              <div class="first-column__title">{{ page.get-started }}</div>
+    <div class="section d-flex flex-column py-4" style="
+      background-image: url({{baseurl}}/assets/graphics/images/background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      ">
+      <div class="
+        container
+        d-flex
+        form-container"
+      >
+        <div class="col p-3 text-white d-flex animate__animated animate__fadeInDown">
+          <h1 class="display-7 fw-normal">{{ page.get-started }}</h1>
+        </div>
+        <div class="col p-3">
+          <div class="text-white fs-4 fw-light mb-4">{{ page.contact-section-title }}</div>
+          <form
+            action="{{ site.usebasinUrl }}"
+            method="POST"
+            enctype="multipart/form-data"
+            id="form"
+          >
+            <div class="form__input">
+              <label for="name">{{ page.your-name }}</label>
+              <input type="text" name="name" />
             </div>
-            <div class="contact-section__second-column">
-              <div class="second-column__title">{{ page.contact-section-title }}</div>
-              <form
-                action="{{ site.usebasinUrl }}"
-                method="POST"
-                enctype="multipart/form-data"
-                id="form"
-              >
-                <div class="form__input">
-                  <label for="name">{{ page.your-name }}</label>
-                  <input type="text" name="name" />
-                </div>
-                <div class="form__input">
-                  <label for="email">{{ page.your-email }}</label>
-                  <input type="email" name="email" required />
-                </div>
-                <div class="form__input">
-                  <label for="message">{{ page.your-message }}</label>
-                  <textarea name="message"></textarea>
-                </div>
-                <button type="submit">{{ page.contact-us }}</button>
-              </form>
+            <div class="form__input">
+              <label for="email">{{ page.your-email }}</label>
+              <input type="email" name="email" required />
             </div>
-          </div>
+            <div class="form__input">
+              <label for="message">{{ page.your-message }}</label>
+              <textarea name="message"></textarea>
+            </div>
+            <button class="btn btn-primary btn-lg mt-4 p-2" style="
+              background: #1976D2;
+              max-width: 280px;
+              width: 100%;" type="submit">
+                {{ page.contact-us }}
+            </button>
+          </form>
         </div>
       </div>
     </div>

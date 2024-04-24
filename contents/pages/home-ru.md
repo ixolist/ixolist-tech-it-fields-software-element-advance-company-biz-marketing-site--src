@@ -7,7 +7,7 @@ page_id: home
 
 # global title
 main-title: IXOlist
-main-subtitle: Открой дверь в<br> крипто мир вместе с нами!
+main-subtitle: Открой дверь в крипто мир вместе с нами!
 
 try: Попробовать
 
