@@ -299,6 +299,16 @@ form > button:hover {
   height: 100%;
 }
 
+.socials > a {
+  margin: 0 10px;
+  transition: .3s;
+}
+
+.socials > a:hover {
+  opacity: 0.5;
+  transition: .3s;
+}
+
 @media (orientation: landscape) and (max-width: 1000px) {
   .diagram__container-scroll {
     display: block;
