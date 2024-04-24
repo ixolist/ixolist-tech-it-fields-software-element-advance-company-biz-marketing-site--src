@@ -1,5 +1,5 @@
 ---
-layout: app
+layout: diagrams
 title: Enterprise
 permalink: apps/org/diagrams
 lang: en

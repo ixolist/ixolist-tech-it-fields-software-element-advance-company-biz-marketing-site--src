@@ -27,6 +27,22 @@
         {% include multilang-buttons.html %}
       </div>
     </div>
-    {{ content }}
+    <div class="container p-4">
+      <div class="col text-primary d-flex mt-4 flex-column align-items-start">
+        <h2 class="fw-bold display-3" style="
+          color: #1976D2;
+          line-height: 46px;"
+        >
+          {{ page.title }}
+        </h2>
+        <h3 class="fw-normal fs-4" style="
+          color: #1976D2;
+          line-height: 46px;"
+        >
+          {{ page.description }}
+        </h3>
+      </div>
+      {{ content }}
+    </div>
   </body>
 </html>

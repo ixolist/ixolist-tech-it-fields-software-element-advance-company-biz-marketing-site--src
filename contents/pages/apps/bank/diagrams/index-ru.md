@@ -1,5 +1,5 @@
 ---
-layout: app
+layout: diagrams
 title: Bank
 permalink: apps/bank/diagrams
 lang: ru

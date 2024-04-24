@@ -1,5 +1,5 @@
 ---
-layout: app
+layout: diagrams
 title: World Token Offering
 permalink: apps/offering/diagrams
 lang: en

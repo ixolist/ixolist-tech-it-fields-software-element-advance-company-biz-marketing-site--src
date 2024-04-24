@@ -390,12 +390,12 @@ form > button:hover {
   color: #fff;
   font-size: 38px;
   font-weight: 700;
-  cursor: pointer;
   transition: .3s;
   padding: 6px;
+  width: fit-content !important;
 }
 
-.header-logo:hover > a {
+.header-logo > a:hover {
   color: #1976D2;
   transition: .3s;
   border: 7px solid #1976D2;
@@ -407,6 +407,7 @@ form > button:hover {
   transition: .3s;
   border: 7px solid #fff;
   padding: 6px;
+  cursor: pointer;
 }
 
 .container-app {

@@ -1,5 +1,5 @@
 ---
-layout: app
+layout: diagrams
 title: Self Token Minting
 permalink: apps/minting/diagrams
 lang: ru

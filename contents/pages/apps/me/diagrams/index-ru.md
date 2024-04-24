@@ -1,5 +1,5 @@
 ---
-layout: app
+layout: diagrams
 title: Community
 permalink: apps/me/diagrams
 lang: ru

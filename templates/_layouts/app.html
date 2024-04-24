@@ -6,42 +6,62 @@
       {{ page.title }}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{baseurl}}/assets/styles/css/style.css" rel="stylesheet">
+    <link href="{{baseurl}}/assets/styles/css/new-styles.css" rel="stylesheet">
     <!-- Include fonts -->
     {% include fonts.html %}
     <!-- Include animations -->
     {% include animations.html %}
+    {% include bootstrap.html %}
   </head>
-  <body class="apps-body">
-    {% include multilang-buttons.html %}
-    <div class="apps-body__header animate__animated animate__fadeInDown">
-      <div class="header-logo">
-        <a href="/">IXOlist</a>
+  <body>
+    <div class="header sticky-top shadow-lg" style="
+      background: #1976D2;
+    ">
+      <div class="container d-flex">
+        <div class="col">
+          <div class="header-logo d-flex fs-5 p-3 align-items-center">
+            <a href="/">IXOlist</a>
+            {% include breadcrumbs.html %}
+          </div>
+        </div>
+        {% include multilang-buttons.html %}
       </div>
-      {% include breadcrumbs.html %}
     </div>
-    <div class="container-app">
-      <div class="container__left-side" style="justify-content: start;">
-        <div class="left-side__block">
-          <div class="container__title animate__animated animate__fadeInDown">
-            {{ page.title }}
-          </div>
-          <div class="container__subtitle animate__animated animate__fadeInDown">
-            {{ page.description }}
-          </div>
-        </div>
-        <div class="animate__animated animate__fadeInUp">{{content}}</div>
+    <div class="container p-4">
+      <div class="col text-primary d-flex mt-4 flex-column align-items-start">
+        <h2 class="fw-bold display-3" style="
+          color: #1976D2;
+          line-height: 46px;"
+        >
+          {{ page.title }}
+        </h2>
+        <h3 class="fw-normal fs-4" style="
+          color: #1976D2;
+          line-height: 46px;"
+        >
+          {{ page.description }}
+        </h3>
       </div>
-      <div class="container__right-side">
-        <div class="apps-body__detail-description animate__animated animate__fadeInRight">
-          {{ page.detail-description}}
-          <a style="text-decoration: none; width: 100%;" href="diagrams">
-            <button class="container__btn" >
-              {{ page.diagrams }}
-            </button>
-          </a>
-        </div>
+      <div class="col text-primary d-flex mt-3 flex-column align-items-start">
+        <h3 class="fw-light fs-5" style="
+          color: #1976D2;
+          line-height: 46px;"
+        >
+          {{ page.detail-description }}
+        </h3>
       </div>
+      <a
+        href="diagrams"
+        class="btn btn-primary btn-lg mt-4 p-2"
+        style="
+          background: #1976D2;
+          max-width: 280px;
+          width: 100%;"
+        tabindex="-1"
+        role="button"
+      >
+        {{ page.diagrams }}
+      </a>
     </div>
   </body>
 </html>
