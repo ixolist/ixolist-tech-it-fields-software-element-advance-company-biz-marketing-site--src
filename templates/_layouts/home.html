@@ -4,11 +4,14 @@
     <title>
       {{ page.title }}
     </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="We ensure that clients participate in promising cryptocurrency projects, and also create a bridge between cryptocurrencies and business development for greater efficiency and effectiveness.">
+    <meta name="keywords" content="IXOList, cryptocurrencies, ICO, blockchain, news, analytics, reviews, investments. IXOList, криптовалюты, ICO, блокчейн, аналитика, инвестиции">
+    <meta name="author" content="IXOList">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="{{baseurl}}/assets/styles/css/new-styles.css" rel="stylesheet">
-     <link rel="preload" as="image" href="url({{baseurl}}/assets/graphics/images/background.webp)"/>
-    <!-- Include fonts -->
-    {% include fonts.html %}
+    <meta name="robots" content="index, follow">
+    <link href="{{baseurl}}/assets/styles/css/new-styles.css" rel="stylesheet">
+    <link rel="preload" as="image" href="url({{baseurl}}/assets/graphics/images/background.webp)"/>
     <!-- Include animations -->
     {% include animations.html %}
     {% include bootstrap.html %}
@@ -59,11 +62,11 @@
         </div>
         <div class="col animate__animated animate__fadeInRight">
           <div class="container p-4 d-flex justify-content-end align-items-center">
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone.webp"></img>
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-2.webp"></img>
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-3.webp"></img>
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-4.webp"></img>
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-5.webp"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone.webp" alt="phone-image-1"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-2.webp" alt="phone-image-2"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-3.webp" alt="phone-image-3"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-4.webp" alt="phone-image-4"></img>
+            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-5.webp" alt="phone-image-5"></img>
           </div>
         </div>
       </div>
@@ -253,16 +256,16 @@
             id="form"
           >
             <div class="form__input">
-              <label for="name">{{ page.your-name }}</label>
-              <input type="text" name="name" />
+              <label for="form__name" for="name">{{ page.your-name }}</label>
+              <input id="form__name" type="text" name="name" />
             </div>
             <div class="form__input">
-              <label for="email">{{ page.your-email }}</label>
-              <input type="email" name="email" required />
+              <label for="form__email">{{ page.your-email }}</label>
+              <input id="form__email" type="email" name="email" required />
             </div>
             <div class="form__input">
-              <label for="message">{{ page.your-message }}</label>
-              <textarea name="message"></textarea>
+              <label for="form__message">{{ page.your-message }}</label>
+              <textarea id="form__message" name="message"></textarea>
             </div>
             <button class="btn btn-primary btn-lg mt-4 p-2" style="
               background: #1976D2;
@@ -275,22 +278,22 @@
       </div>
       <div class="socials w-100 d-flex justify-content-center align-items-center p-4">
         <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/telegram-icon.svg"></img>
+          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/telegram-icon.svg" alt="footer-icon-telegram"></img>
         </a>
         <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/discord-icon.svg"></img>
+          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/discord-icon.svg" alt="footer-icon-discord"></img>
         </a>
         <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/matrix-icon.svg"></img>
+          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/matrix-icon.svg" alt="footer-icon-matrix"></img>
         </a>
         <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/twitter-x-icon.svg"></img>
+          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/twitter-x-icon.svg" alt="footer-icon-twitter"></img>
         </a>
         <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/youtube-icon.svg"></img>
+          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/youtube-icon.svg" alt="footer-icon-youtube"></img>
         </a>
         <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/github-icon.svg"></img>
+          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/github-icon.svg" alt="footer-icon-github"></img>
         </a>
       </div>
     </div>
