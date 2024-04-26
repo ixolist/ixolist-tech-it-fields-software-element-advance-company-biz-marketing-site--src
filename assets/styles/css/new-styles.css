@@ -54,7 +54,7 @@ html, body {
 }
 
 .multilang-buttons--selected {
-  opacity: 0.3 !important;
+  border-bottom: 2px solid #fff !important;
 }
 
 .multilang-buttons > a {
