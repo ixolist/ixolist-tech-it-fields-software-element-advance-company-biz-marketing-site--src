@@ -26,6 +26,13 @@ html, body {
   height: fit-content;
 }
 
+.section--with-bg {
+  background-image: url("/assets/graphics/images/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
 .btn {
   transition: .3s !important;
 }

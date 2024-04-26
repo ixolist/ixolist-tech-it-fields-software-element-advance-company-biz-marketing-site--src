@@ -12,6 +12,10 @@
     <meta name="robots" content="index, follow">
     <link href="{{baseurl}}/assets/styles/css/new-styles.css" rel="stylesheet">
     <link rel="preload" as="image" href="url({{baseurl}}/assets/graphics/images/background.webp)"/>
+    <link rel="preload" as="image" href="../assets/graphics/images/phone-2.webp"/>
+    <link rel="preload" as="image" href="../assets/graphics/images/phone-3.webp"/>
+    <link rel="preload" as="image" href="../assets/graphics/images/phone-4.webp"/>
+    <link rel="preload" as="image" href="../assets/graphics/images/phone-5.webp"/>
     <!-- Include animations -->
     {% include animations.html %}
     {% include bootstrap.html %}
@@ -31,11 +35,7 @@
     </div>
   </div>
   <body>
-    <div class="section d-flex flex-column py-4" style="
-      background-image: url({{baseurl}}/assets/graphics/images/background.webp);
-      background-repeat: no-repeat;
-      background-size: cover;
-      ">
+    <div class="section section--with-bg d-flex flex-column py-4">
       <div class="
         container
         d-flex
@@ -93,11 +93,7 @@
         </div>
       </div>
     </div>
-    <div id="apps" class="section py-4" style="
-      background-image: url({{baseurl}}/assets/graphics/images/background.webp);
-      background-repeat: no-repeat;
-      background-size: cover;
-    ">
+    <div id="apps" class="section section--with-bg py-4">
       <div class="
         container
         justify-content-center
@@ -234,11 +230,7 @@
         {% endif %}
       </div>
     </div>
-    <div class="section d-flex flex-column py-4" style="
-      background-image: url({{baseurl}}/assets/graphics/images/background.webp);
-      background-repeat: no-repeat;
-      background-size: cover;
-      ">
+    <div class="section section--with-bg d-flex flex-column py-4">
       <div class="
         container
         d-flex
