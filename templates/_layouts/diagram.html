@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <script src="{{baseurl}}/assets/scripts/app/script.js"></script>
   <head>
     <title>
       {{ page.title }}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{baseurl}}/assets/styles/css/new-styles.css" rel="stylesheet">
+    <link rel="preload" as="image" href="url({{baseurl}}/assets/graphics/images/background.webp)"/>
     <!-- Include fonts -->
     {% include fonts.html %}
     <!-- Include animations -->
@@ -29,4 +29,5 @@
     </div>
     {{ content }}
   </body>
+  <script src="{{baseurl}}/assets/scripts/app/script.js"></script>
 </html>
