@@ -54,7 +54,7 @@ html, body {
 }
 
 .multilang-buttons--selected {
-  border-bottom: 2px solid #fff !important;
+  color: #1976D2 !important;
 }
 
 .multilang-buttons > a {
@@ -384,6 +384,54 @@ form > button:hover {
 
 #apps:target{
   scroll-margin-top: 79px;
+}
+
+.language-selector {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.language-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.language-options {
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.language-icon:hover .language-options {
+  display: block;
+}
+
+.language-options ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.language-options ul li {
+  margin-bottom: 5px;
+}
+
+.language-options ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  display: block;
+}
+
+.language-options ul li a:hover {
+  background-color: #f0f0f0;
 }
 
 @media (orientation: landscape) and (max-width: 1000px) {
