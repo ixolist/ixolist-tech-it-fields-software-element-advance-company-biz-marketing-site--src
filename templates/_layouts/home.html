@@ -100,109 +100,23 @@
         align-items-center
         desktop-services-block"
       >
-        <div class="services-block__buttons col-6 p-4 text-white d-flex flex-column animate__animated animate__fadeInLeft">
-          <div class="services__btn fw-light" id="Bank" style="width: 100%; margin-bottom: 10px;">
+        <div class="fs-4 fw-light text-white animate__animated animate__fadeInLeft">{{page.services-title}}</div>
+        <div class="services-block__buttons w-100 col-6 p-4 text-white d-flex flex-column animate__animated animate__fadeInLeft">
+          <a href="/apps/bank" class="services__btn fw-light" id="Bank" style="width: 100%; margin-bottom: 10px;">
             {{ page.bank }}
-          </div>
+          </a>
           <div class="services__buttons">
-            <div class="services__btn fw-light" id="Minting">
+            <a href="/apps/minting" class="services__btn fw-light" id="Minting">
               {{ page.minting }}
-            </div>
-            <div class="services__btn fw-light" id="Offering">
+            </a>
+            <a href="/apps/offering" class="services__btn fw-light" id="Offering">
               {{ page.offering }}
-            </div>
-            <div class="services__btn fw-light" id="Me">
+            </a>
+            <a href="/apps/me" class="services__btn fw-light" id="Me">
               {{ page.community }}
-            </div>
-            <div class="services__btn fw-light" id="Organizations">
+            </a>
+            <a href="/apps/org" class="services__btn fw-light" id="Organizations">
               {{ page.enterprise}}
-            </div>
-          </div>
-        </div>
-        <div class="services-block__description col d-flex flex-column p-4 animate__animated animate__fadeInRight h-100">
-          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="OfferingDescription">
-            <div class="fs-5 h-100 fw-light text-white">
-              {{ page.offering-description }}
-            </div>
-            <a
-              href="/apps/offering"
-              class="btn btn-primary btn-lg mt-4 p-2"
-              style="
-                background: #1976D2;
-                max-width: 280px;
-                width: 100%;"
-              tabindex="-1"
-              role="button"
-            >
-              {{ page.see-more }}
-            </a>
-          </div>
-          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="BankDescription">
-            <div class="fs-5 h-100 fw-light text-white">
-              {{ page.bank-description }}
-            </div>
-            <a
-              href="/apps/bank"
-              class="btn btn-primary btn-lg mt-4 p-2"
-              style="
-                background: #1976D2;
-                max-width: 280px;
-                width: 100%;"
-              tabindex="-1"
-              role="button"
-            >
-              {{ page.see-more }}
-            </a>
-          </div>
-          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="MintingDescription">
-            <div class="fs-5 h-100 fw-light text-white">
-              {{ page.minting-description }}
-            </div>
-            <a
-              href="/apps/minting"
-              class="btn btn-primary btn-lg mt-4 p-2"
-              style="
-                background: #1976D2;
-                max-width: 280px;
-                width: 100%;"
-              tabindex="-1"
-              role="button"
-            >
-              {{ page.see-more }}
-            </a>
-          </div>
-          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="EnterpriseDescription">
-            <div class="fs-5 h-100 fw-light text-white">
-              {{ page.enterprise-description }}
-            </div>
-            <a
-              href="/apps/org"
-              class="btn btn-primary btn-lg mt-4 p-2"
-              style="
-                background: #1976D2;
-                max-width: 280px;
-                width: 100%;"
-              tabindex="-1"
-              role="button"
-            >
-              {{ page.see-more }}
-            </a>
-          </div>
-          <div class="description" style="display: flex; flex-direction: column; height: 100%; align-items: end;" id="CommunityDescription">
-            <div class="fs-5 h-100 fw-light text-white">
-              {{ page.community-description }}
-            </div>
-            <a
-              href="/apps/me"
-              class="btn btn-primary btn-lg mt-4 p-2"
-              style="
-                background: #1976D2;
-                max-width: 280px;
-                width: 100%;"
-              tabindex="-1"
-              role="button"
-            >
-              {{ page.see-more }}
             </a>
           </div>
         </div>

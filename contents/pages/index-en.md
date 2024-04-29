@@ -22,6 +22,8 @@ bank: Bank
 enterprise: Enterprise
 
 # services descriptions
+services-title: IXOlist is a platform built on five service apps
+
 offering-description: Creating and managing campaigns
 bank-description: Management of financial operations
 minting-description: Register of jurisdictions and their management

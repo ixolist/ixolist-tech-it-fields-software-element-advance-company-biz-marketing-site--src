@@ -92,6 +92,7 @@ html, body {
   transition: .3s;
   max-height: 48px;
   position: relative; /* Добавляем позиционирование для псевдоэлемента */
+  text-decoration: none;
 }
 
 .services__btn::before {
@@ -107,17 +108,8 @@ html, body {
   pointer-events: none; /* Исключаем псевдоэлемент из пользовательского взаимодействия */
 }
 
-.services__btn.selected::before {
-  border-color: transparent !important; /* Увеличиваем приоритет с помощью !important */
-}
-
 .services__btn:hover::before {
   border-color: #1976D2;
-}
-
-.selected {
-  border: 2px solid #1976D2;
-  transition: .3s;
 }
 
 .header-logo {
@@ -143,6 +135,7 @@ html, body {
 
 .desktop-services-block {
   display: flex;
+  flex-direction: column;
 }
 
 .tags-container-en--desktop {
@@ -387,32 +380,7 @@ form > button:hover {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .desktop-services-block {
-    flex-direction: column !important;
-  }
-  
-  .services-block__buttons {
-    width: 100% !important;
-  }
-
-  .services-block__description {
-    width: 100% !important;
-  }
-
-  .services-block__description > .description {
-    align-items: center !important;
-  }
-
-  .services-block__description > .description > div {
-    text-align: center !important;
-  }
-
-  .services-block__description > .description > a {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
+@media screen and (max-width: 767px) {  
   .tags-container-en--mobile {
     display: flex;
   }
