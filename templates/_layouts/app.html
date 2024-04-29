@@ -31,13 +31,13 @@
     </div>
     <div class="container p-4">
       <div class="col text-primary d-flex mt-4 flex-column align-items-start  animate__animated animate__fadeInDown">
-        <h2 class="fw-bold display-3" style="
+        <h1 class="fw-bold display-4" style="
           color: #1976D2;
           line-height: 46px;"
         >
           {{ page.title }}
-        </h2>
-        <h3 class="fw-normal fs-4" style="
+        </h1>
+        <h3 class="fw-semibold fs-5" style="
           color: #1976D2;
           line-height: 46px;"
         >
@@ -52,18 +52,15 @@
           {{ page.detail-description }}
         </h3>
       </div>
-      <a
-        href="diagrams"
-        class="btn btn-primary btn-lg mt-4 p-2 animate__animated animate__fadeIn"
-        style="
-          background: #1976D2;
-          max-width: 280px;
-          width: 100%;"
-        tabindex="-1"
-        role="button"
-      >
-        {{ page.diagrams }}
-      </a>
+      <div class="d-flex flex-column animate__animated animate__fadeInLeft">
+        {% if page.lang == "en" %}
+          <a href="./architectures" class="diagram-card p-2">Architectures</a>
+          <a href="./business-processes" class="diagram-card p-2">Business Processes</a>
+        {% else %}
+          <a href="./architectures" class="diagram-card p-2">Архитектуры</a>
+          <a href="./business-processes" class="diagram-card p-2">Бизнес процессы</a>
+        {% endif %}
+      </div>
     </div>
   </body>
   <script src="{{baseurl}}/assets/scripts/app/script.js"></script>

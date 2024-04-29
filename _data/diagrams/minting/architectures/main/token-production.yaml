@@ -1,0 +1,5 @@
+name: Token Production
+id: mintingDiagramTokenProduction
+iframePath: https://minting.ixolist.com/embed/1?apiKey=&diagram=Token_Production_level-2&diagramSelector=false&iframe=mintingDiagramTokenProduction
+scriptPath: https://minting.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/minting/architectures/token-production/

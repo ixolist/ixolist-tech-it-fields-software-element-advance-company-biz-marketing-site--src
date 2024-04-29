@@ -279,6 +279,44 @@ form > button:hover {
   flex-wrap: wrap;
 }
 
+.block__current-process > .service-process-card {
+  margin-top: 0;
+}
+
+.service-process-card {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #1976D2;
+  text-decoration: none;
+  color: #1976D2;
+  transition: .3s;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.service-process-card--link {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #1976D2;
+  text-decoration: none;
+  color: #1976D2;
+  transition: .3s;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.service-process-card--link:hover {
+  transition: .3s;
+  opacity: .5;
+}
+
 .diagram-card {
   display: flex;
   flex-direction: column;
@@ -305,6 +343,17 @@ form > button:hover {
   height: 100%;
 }
 
+.block__other-processes > p {
+  margin: 0;
+}
+
+.block__other-processes{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  align-items: center;
+}
+
 .socials > a {
   margin: 0 10px;
   transition: .3s;
@@ -313,6 +362,23 @@ form > button:hover {
 .socials > a:hover {
   opacity: 0.5;
   transition: .3s;
+}
+
+.logical__block {
+  border: 2px solid #1976D2;
+}
+
+.logical__block-label {
+  color: #1976D2;
+  position: absolute;
+  background: #fff;
+  z-index: 1;
+  top: -15px;
+  left: 10px;
+}
+
+#apps:target{
+  scroll-margin-top: 79px;
 }
 
 @media (orientation: landscape) and (max-width: 1000px) {
