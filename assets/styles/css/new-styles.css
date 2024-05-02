@@ -377,6 +377,10 @@ form > button:hover {
   align-items: center;
 }
 
+.block__other-processes::-webkit-scrollbar {
+  display: none;
+}
+
 .socials > a {
   margin: 0 10px;
   transition: .3s;
