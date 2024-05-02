@@ -180,19 +180,19 @@ html, body {
 }
 
 .tag:after {
-	display: block;
-	position: relative;
-	left: 0;
-	width: 0;
-	height: 2px;
-	background-color: #1976D2;
-	content: "";
-	transition: width 0.3s ease-out;
+  display: block;
+  position: relative;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1976D2;
+  content: "";
+  transition: width 0.3s ease-out;
 }
 
 .tag:hover:after,
 .tag:focus:after {
-	width: 100%;
+  width: 100%;
 }
 
 .form__input {
@@ -318,6 +318,24 @@ form > button:hover {
 }
 
 .service-process-card--link:hover {
+  transition: .3s;
+  opacity: .5;
+}
+
+.diagram-card--no-outline {
+  display: flex;
+  flex-direction: column;
+  background: #1976D2;
+  text-decoration: none;
+  color: #fff;
+  transition: .3s;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.diagram-card--no-outline:hover {
   transition: .3s;
   opacity: .5;
 }
