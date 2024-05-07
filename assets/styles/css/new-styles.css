@@ -456,6 +456,14 @@ form > button:hover {
   background-color: #f0f0f0;
 }
 
+.app-dapp-btn__block--desktop {
+  display: flex;
+}
+
+.app-dapp-btn__block--mobile {
+  display: none;
+}
+
 @media (orientation: landscape) and (max-width: 1000px) {
   .diagram__container-scroll {
     display: block;
@@ -463,6 +471,12 @@ form > button:hover {
 }
 
 @media screen and (max-width: 767px) {  
+  .app-dapp-btn__block--mobile {
+    display: flex;
+  }
+  .app-dapp-btn__block--desktop {
+    display: none;
+  }
   .tags-container-en--mobile {
     display: flex;
   }
