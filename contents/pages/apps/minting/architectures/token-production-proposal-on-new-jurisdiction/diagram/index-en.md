@@ -1,11 +1,11 @@
 ---
 layout: embed
-permalink: apps/minting/architectures/token-production-proposal-on-new-jurisdiction/diagram
+permalink: apps/minting/architectures/token-production-proposal-on-new-jurisdiction/diagrams
 lang: en
-page_id: apps-minting-architectures-token-production-proposal-on-new-jurisdiction-diagram
+page_id: apps-minting-architectures-token-production-proposal-on-new-jurisdiction-diagrams
 
 title: Proposal on new Jurisdiction
-subtitle: Diagram
+subtitle: Diagrams
 backUrl: /apps/minting/architectures/token-production-proposal-on-new-jurisdiction
 ---
 {% include diagram.html id=site.data.diagrams.minting.architectures.token-production.token-production-proposal-on-new-jurisdiction.id iframePath=site.data.diagrams.minting.architectures.token-production.token-production-proposal-on-new-jurisdiction.iframePath scriptPath=site.data.diagrams.minting.architectures.token-production.token-production-proposal-on-new-jurisdiction.scriptPath %}

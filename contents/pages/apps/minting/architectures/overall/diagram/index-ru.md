@@ -1,10 +1,10 @@
 ---
 layout: embed
-permalink: apps/minting/architectures/overall/diagram
+permalink: apps/minting/architectures/overall/diagrams
 title: Overall
-subtitle: Диаграмма
+subtitle: Диаграммы
 lang: ru
-page_id: apps-minting-architectures-overall-diagram
+page_id: apps-minting-architectures-overall-diagrams
 backUrl: /ru/apps/minting/architectures/overall/
 
 description: Diagrams

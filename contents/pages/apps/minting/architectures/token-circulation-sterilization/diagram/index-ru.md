@@ -1,11 +1,11 @@
 ---
 layout: embed
-permalink: apps/minting/architectures/token-circulation-sterilization/diagram
+permalink: apps/minting/architectures/token-circulation-sterilization/diagrams
 lang: ru
-page_id: apps-minting-architectures-token-circulation-sterilization-diagram
+page_id: apps-minting-architectures-token-circulation-sterilization-diagrams
 
 title: Sterilization
-subtitle: Диаграмма
+subtitle: Диаграммы
 backUrl: /ru/apps/minting/architectures/token-circulation-sterilization
 
 ---

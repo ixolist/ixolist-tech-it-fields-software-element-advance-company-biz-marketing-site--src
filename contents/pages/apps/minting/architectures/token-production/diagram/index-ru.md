@@ -1,11 +1,11 @@
 ---
 layout: embed
-permalink: apps/minting/architectures/token-production/diagram
+permalink: apps/minting/architectures/token-production/diagrams
 lang: ru
-page_id: apps-minting-architectures-token-production-diagram
+page_id: apps-minting-architectures-token-production-diagrams
 
 title: Token Production
-subtitle: Диаграмма
+subtitle: Диаграммы
 backUrl: /ru/apps/minting/architectures/token-production
 
 description: Diagrams
