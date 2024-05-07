@@ -2,19 +2,19 @@
   <div style="display: flex; align-items: center; margin-left: 10px;" id="breadcrumbs">
     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
     {% for crumb in crumbs offset: 1 %}
-      {% if forloop.index > 2 %}
+      {% if forloop.index > 3 %}
         {% break %}
       {% endif %}
       {% if forloop.last %}
         {% if page.breadcrumbs-title %}
           <div class="text-nowrap">{{ page.breadcrumbs-title }}</div>
+        {% else %}
+          <div class="text-nowrap">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</div>
         {% endif %}
       {% else %}
         <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
-        {% unless forloop.last %}
-          {% unless forloop.index > 1 %}
-            <div style="margin: 0 6px;">></div>
-          {% endunless %}
+        {% unless forloop.index > 2 %}
+          <div style="margin: 0 6px;">></div>
         {% endunless %}
       {% endif %}
     {% endfor %}
