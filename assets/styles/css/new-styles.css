@@ -500,3 +500,13 @@ form > button:hover {
     transition: .3s !important;
   }
 }
+
+.current-process--embed {
+  transition: .3s;
+}
+
+.current-process--embed:hover {
+  cursor: pointer;
+  opacity: .5;
+  transition: .3s;
+}

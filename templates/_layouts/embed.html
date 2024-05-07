@@ -19,17 +19,27 @@
     <div class="header sticky-top shadow-lg" style="
       background: #1976D2;
     ">
-      <div class="container d-flex">
+      <div class="container px-2 d-flex">
         <div class="col">
           <div class="header-logo d-flex fs-5 p-3 align-items-center">
             <a href="/">IXOlist</a>
             {% include breadcrumbs.html %}
           </div>
         </div>
-        <!-- {% include multilang-buttons.html %} -->
+        {% include multilang-buttons.html %}
       </div>
     </div>
-    {{ content }}
+    <div class="container p-4">
+      <div class="mb-4 service-process__block d-flex justify-content-between animate__animated animate__fadeInDown">
+        <div class="block__current-process d-flex align-items-center">
+          <a style="text-decoration: none;" href="{{page.backUrl}}" class="current-process--embed">
+            <div class="service-process-card fw-bold p-2" style="border: 4px solid #1976D2; margin-top: 0;">{{page.title}}</div>
+          </a>
+          <div class="fs-6 fw-bold" style="color: #1976D2;">{{page.subtitle}}</div>
+        </div>
+      </div>
+      {{ content }}
+    </div>
   </body>
   <script src="{{baseurl}}/assets/scripts/app/script.js"></script>
 </html>
