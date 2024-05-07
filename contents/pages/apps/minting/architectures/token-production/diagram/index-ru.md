@@ -10,4 +10,4 @@ backUrl: /ru/apps/minting/architectures/token-production
 
 description: Diagrams
 ---
-{% include diagram.html id=site.data.diagrams.minting.architectures.main.token-production.id iframePath=site.data.diagrams.minting.architectures.main.token-production.iframePath scriptPath=site.data.diagrams.minting.architectures.main.token-production.scriptPath %}
+{% include diagram.html id=site.data.diagrams.minting.architectures.overall.token-production.id iframePath=site.data.diagrams.minting.architectures.overall.token-production.iframePath scriptPath=site.data.diagrams.minting.architectures.overall.token-production.scriptPath %}
