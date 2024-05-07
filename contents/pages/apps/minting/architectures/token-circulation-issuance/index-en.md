@@ -8,4 +8,5 @@ detail-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 diagramUrl: apps/minting/architectures/token-circulation-issuance/diagram
 videoUrl: apps/minting/architectures/token-circulation-issuance/ux-videos
 screensUrl: apps/minting/architectures/token-circulation-issuance/ui-screens
+backUrl: /apps/minting/architectures/token-circulation
 ---

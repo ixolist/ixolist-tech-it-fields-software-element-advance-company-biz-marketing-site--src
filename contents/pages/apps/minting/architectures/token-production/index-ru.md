@@ -8,6 +8,7 @@ detail-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 diagramUrl: ru/apps/minting/architectures/token-production/diagram
 videoUrl: ru/apps/minting/architectures/token-production/ux-videos
 screensUrl: ru/apps/minting/architectures/token-production/ui-screens
+backUrl: /ru/apps/minting/architectures/overall
 ---
 {% assign sorted_diagrams = site.data.diagrams.minting.architectures.token-production | sort: name %}
 {% for item_hash in sorted_diagrams %} {% assign item = item_hash[1] %}

@@ -8,4 +8,5 @@ detail-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 diagramUrl: ru/apps/minting/architectures/token-circulation-sterilization/diagram
 videoUrl: ru/apps/minting/architectures/token-circulation-sterilization/ux-videos
 screensUrl: ru/apps/minting/architectures/token-circulation-sterilization/ui-screens
+backUrl: /ru/apps/minting/architectures/token-circulation
 ---

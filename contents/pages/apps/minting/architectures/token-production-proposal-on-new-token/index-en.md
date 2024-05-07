@@ -8,4 +8,5 @@ detail-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nul
 diagramUrl: apps/minting/architectures/token-production-proposal-on-new-jurisdiction/diagram
 videoUrl: apps/minting/architectures/token-production-proposal-on-new-jurisdiction/ux-videos
 screensUrl: apps/minting/architectures/token-production-proposal-on-new-jurisdiction/ui-screens
+backUrl: /apps/minting/architectures/token-production
 ---

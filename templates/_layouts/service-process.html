@@ -31,7 +31,12 @@
     </div>
     <div class="container p-4">
       <div class="service-process__block d-flex justify-content-between animate__animated animate__fadeInRight">
-        <div class="block__current-process">
+        <div class="block__current-process d-flex">
+          {% if page.backUrl %}
+            <a class="d-flex" href="{{page.backUrl}}">
+              <img style="width: 36px; margin-right: 10px;" src="{{baseurl}}/assets/graphics/images/back-arrow-icon.svg" href="{{page.backUrl}}"></img>
+            </a>
+            {% endif %}
           <div class="service-process-card fw-bold p-2" style="border: 4px solid #1976D2;">{{page.title}}</div>
         </div>
         <div class="block__other-processes d-flex">
