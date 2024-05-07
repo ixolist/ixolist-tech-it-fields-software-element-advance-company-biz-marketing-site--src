@@ -11,7 +11,5 @@ screensUrl: apps/minting/architectures/token-production/ui-screens
 ---
 {% assign sorted_diagrams = site.data.diagrams.minting.architectures.token-production | sort: name %}
 {% for item_hash in sorted_diagrams %} {% assign item = item_hash[1] %}
-  {% unless item.name == "Token Production" %}
   {% include service-process-card.html item=item %}
-  {% endunless %}
 {% endfor %}

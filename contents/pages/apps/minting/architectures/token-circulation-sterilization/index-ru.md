@@ -11,7 +11,5 @@ screensUrl: ru/apps/minting/architectures/token-circulation-sterilization/ui-scr
 ---
 {% assign sorted_diagrams = site.data.diagrams.minting.architectures.token-circulation | sort: name %}
 {% for item_hash in sorted_diagrams %} {% assign item = item_hash[1] %}
-  {% unless item.name == "Sterilization" %}
   {% include service-process-card.html item=item %}
-  {% endunless %}
 {% endfor %}

@@ -9,9 +9,7 @@ diagramUrl: apps/minting/architectures/overall/diagram
 videoUrl: apps/minting/architectures/overall/ux-videos
 screensUrl: apps/minting/architectures/overall/ui-screens
 ---
-{% assign sorted_diagrams = site.data.diagrams.minting.architectures.main | sort: name %}
+{% assign sorted_diagrams = site.data.diagrams.minting.architectures.overall | sort: name %}
 {% for item_hash in sorted_diagrams %} {% assign item = item_hash[1] %}
-  {% unless item.name == "Overall" %}
   {% include service-process-card.html item=item %}
-  {% endunless %}
 {% endfor %}

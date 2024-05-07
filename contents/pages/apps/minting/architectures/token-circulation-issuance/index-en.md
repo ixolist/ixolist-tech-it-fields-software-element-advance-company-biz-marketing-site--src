@@ -11,7 +11,5 @@ screensUrl: apps/minting/architectures/token-circulation-issuance/ui-screens
 ---
 {% assign sorted_diagrams = site.data.diagrams.minting.architectures.token-circulation | sort: name %}
 {% for item_hash in sorted_diagrams %} {% assign item = item_hash[1] %}
-  {% unless item.name == "Issuance" %}
   {% include service-process-card.html item=item %}
-  {% endunless %}
 {% endfor %}
