@@ -9,7 +9,3 @@ diagramUrl: apps/minting/architectures/token-production-proposal-on-new-jurisdic
 videoUrl: apps/minting/architectures/token-production-proposal-on-new-jurisdiction/ux-videos
 screensUrl: apps/minting/architectures/token-production-proposal-on-new-jurisdiction/ui-screens
 ---
-{% assign sorted_diagrams = site.data.diagrams.minting.architectures.token-production | sort: name %}
-{% for item_hash in sorted_diagrams %} {% assign item = item_hash[1] %}
-  {% include service-process-card.html item=item %}
-{% endfor %}

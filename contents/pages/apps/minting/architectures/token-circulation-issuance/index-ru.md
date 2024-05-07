@@ -9,7 +9,3 @@ diagramUrl: ru/apps/minting/architectures/token-circulation-issuance/diagram
 videoUrl: ru/apps/minting/architectures/token-circulation-issuance/ux-videos
 screensUrl: ru/apps/minting/architectures/token-circulation-issuance/ui-screens
 ---
-{% assign sorted_diagrams = site.data.diagrams.minting.architectures.token-circulation | sort: name %}
-{% for item_hash in sorted_diagrams %} {% assign item = item_hash[1] %}
-  {% include service-process-card.html item=item %}
-{% endfor %}
