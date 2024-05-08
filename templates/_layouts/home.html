@@ -35,7 +35,7 @@
     </div>
   </div>
   <body>
-    <div class="section section--with-bg d-flex flex-column py-4">
+    <div class="section d-flex flex-column py-4">
       <div class="
         container
         d-flex
@@ -43,53 +43,16 @@
         justify-content-end
         align-items-center"
       >
-        <div class="col p-3 text-white d-flex flex-column aling-items-center animate__animated animate__fadeInDown">
-          <h1 class="display-1 fw-bold">{{ page.main-title }}</h1>
-          <h3 class="fw-light mt-4" style="line-height: 46px;">{{ page.main-subtitle}}</h1>
-          <a
-            href="https://ixolist-userapp-me-dev.netlify.app/"
-            class="btn btn-primary btn-lg mt-4 p-2"
-            style="
-              background: #1976D2;
-              max-width: 280px;
-              width: 100%;"
-            tabindex="-1"
-            role="button"
-            target="_blank"
-          >
-            {{ page.try }}
-          </a>
-        </div>
-        <div class="col animate__animated animate__fadeInRight">
-          <div class="container p-4 d-flex justify-content-end align-items-center">
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone.webp" alt="phone-image-1"></img>
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-2.webp" alt="phone-image-2"></img>
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-3.webp" alt="phone-image-3"></img>
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-4.webp" alt="phone-image-4"></img>
-            <img class="phone-img img-fluid" src="../assets/graphics/images/phone-5.webp" alt="phone-image-5"></img>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section py-4" style="
-      background: #fff;
-    ">
-      <div class="
-        container
-        d-flex
-        flex-row
-        justify-content-center
-        align-items-center
-        animate__animated
-        animate__fadeInLeft
-      ">
-        <div class="col p-4 text-primary d-flex">
-          <h3 class="fw-light fs-4 text-center" style="
-            color: #1976D2;
-            line-height: 46px;"
-          >
-            {{ page.second-block-text}}
-          </h3>
+        <div class="col px-3 text-white d-flex flex-column aling-items-center animate__animated animate__fadeInDown">
+          <h1 class="display-1 fw-bold" style="color: #1976D2; margin-bottom: 0;">{{ page.main-title }}</h1>
+          <h3 class="fw-light mt-4" style="line-height: 46px; color: #1976D2">
+            <img class="phone-img img-fluid" style="float: right;" src="../assets/graphics/images/phone.webp" alt="phone-image-1"></img>
+            <img class="phone-img img-fluid" style="float: right;" src="../assets/graphics/images/phone-2.webp" alt="phone-image-2"></img>
+            <img class="phone-img img-fluid" style="float: right;" src="../assets/graphics/images/phone-3.webp" alt="phone-image-3"></img>
+            <img class="phone-img img-fluid" style="float: right;" src="../assets/graphics/images/phone-4.webp" alt="phone-image-4"></img>
+            <img class="phone-img img-fluid" style="float: right;" src="../assets/graphics/images/phone-5.webp" alt="phone-image-5"></img>
+            <p class="main-subtitle-block">{{ page.main-subtitle}}</p>
+</h3>
         </div>
       </div>
     </div>

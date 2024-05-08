@@ -7,7 +7,7 @@ page_id: home
 
 # global title
 main-title: IXOlist
-main-subtitle: The open door to the crypto world is with us!
+main-subtitle: We are creating a <a href="https://en.wikipedia.org/wiki/Web3" target="_blank">Web3</a> platform for people and organizations to provide the opportunity to participate in honest and reliable cryptocurrency projects, and also creating a bridge between the crypto world and business development for greater efficiency and effectiveness.
 
 try: Try
 

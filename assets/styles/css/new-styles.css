@@ -44,8 +44,13 @@ html, body {
 
 .phone-img {
   max-height: 400px;
-  transform: rotate(7deg) !important;
+  /* transform: rotate(7deg) !important; */
+  margin-top: -100px;
   display: none;
+}
+
+.main-subtitle-block {
+  max-width: 600px;
 }
 
 .multilang-buttons {
@@ -470,7 +475,16 @@ form > button:hover {
   }
 }
 
-@media screen and (max-width: 767px) {  
+@media screen and (max-width: 768px) {  
+  .main-subtitle-block {
+    line-height: 36px;
+  }
+  .phone-img {
+    max-height: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
   .app-dapp-btn__block--mobile {
     display: flex;
   }
