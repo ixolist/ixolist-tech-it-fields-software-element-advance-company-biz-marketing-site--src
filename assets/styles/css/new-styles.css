@@ -570,3 +570,10 @@ form > button:hover {
   opacity: 0.5;
   pointer-events: none;
 }
+
+.diagram-card--dotted {
+  background: #fff !important;
+  border: 3px dotted #1976D2 !important;
+  border-style: dotted;
+  color: #1976D2 !important;
+}
