@@ -34,8 +34,8 @@ see-more: See more
 # networks section
 to-use-ixolist: To use IXOlist service apps need to have a blockchain account and Web3 authroization tool aka wallet.
 blockchain-interoperability: Blockchain Interoperability
-supported: Supported
-featured: Featured
+supported: supported
+featured: featured
 antelope-framework-family: Antelope Framework family
 web3-authentication-tools: Web3 Authentication tools
 

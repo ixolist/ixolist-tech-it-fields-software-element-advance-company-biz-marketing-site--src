@@ -24,8 +24,8 @@ enterprise: Enterprise
 # networks section
 to-use-ixolist: Для использования сервисных приложений IXOlist необходима учетная запись блокчейна и инструмент авторизации Web3, также известный как кошелек.
 blockchain-interoperability: Cовместимость с блокчейном
-supported: Поддерживается
-featured: Планируется
+supported: поддерживается
+featured: планируется
 antelope-framework-family: Antelope Framework family
 web3-authentication-tools: Инструменты аутентификации Web3
 
