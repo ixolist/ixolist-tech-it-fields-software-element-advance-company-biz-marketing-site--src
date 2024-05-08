@@ -5,7 +5,7 @@ lang: ru
 page_id: apps-minting-business-processes-jurisdiction-video
 
 
-title: Jurisdiction
+title: Proposal on new Jurisdiction
 subtitle: UI Видео
 backUrl: /ru/apps/minting/business-processes/jurisdiction
 

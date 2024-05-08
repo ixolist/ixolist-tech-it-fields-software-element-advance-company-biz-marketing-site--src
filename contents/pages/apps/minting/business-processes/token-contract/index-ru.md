@@ -1,5 +1,5 @@
 ---
-title: Token Contract
+title: Proposal on new Token Smart-Contract
 layout: service-process
 permalink: apps/minting/business-processes/token-contract
 lang: ru

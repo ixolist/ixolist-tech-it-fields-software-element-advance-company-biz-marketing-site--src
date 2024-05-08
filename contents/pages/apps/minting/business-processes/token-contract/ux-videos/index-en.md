@@ -5,7 +5,7 @@ lang: en
 page_id: apps-minting-business-processes-token-contract-video
 
 
-title: Token Contract
+title: Proposal on new Token Smart-Contract
 subtitle: UI Videos
 backUrl: /apps/minting/business-processes/token-contract
 

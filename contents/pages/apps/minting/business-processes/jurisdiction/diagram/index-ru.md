@@ -1,7 +1,7 @@
 ---
 layout: embed
 permalink: apps/minting/business-processes/jurisdiction/diagrams
-title: Jurisdiction
+title: Proposal on new Jurisdiction
 subtitle: Диаграммы
 lang: ru
 page_id: apps-minting-business-processes-jurisdiction-diagrams

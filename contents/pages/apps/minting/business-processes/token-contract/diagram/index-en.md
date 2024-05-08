@@ -1,7 +1,7 @@
 ---
 layout: embed
 permalink: apps/minting/business-processes/token-contract/diagrams
-title: Token Contract
+title: Proposal on new Token Smart-Contract
 subtitle: Diagrams
 lang: en
 page_id: apps-minting-business-processes-token-contract-diagrams

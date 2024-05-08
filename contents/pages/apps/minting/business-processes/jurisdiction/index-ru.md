@@ -1,5 +1,5 @@
 ---
-title: Jurisdiction
+title: Proposal on new Jurisdiction
 layout: service-process
 permalink: apps/minting/business-processes/jurisdiction
 lang: ru

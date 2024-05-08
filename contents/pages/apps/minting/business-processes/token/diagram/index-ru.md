@@ -1,7 +1,7 @@
 ---
 layout: embed
 permalink: apps/minting/business-processes/token/diagrams
-title: Token
+title: Proposal on new Token
 subtitle: Диаграммы
 lang: ru
 page_id: apps-minting-business-processes-token-diagrams

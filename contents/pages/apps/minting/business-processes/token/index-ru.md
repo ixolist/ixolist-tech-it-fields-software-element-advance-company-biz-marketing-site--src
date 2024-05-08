@@ -1,5 +1,5 @@
 ---
-title: Token
+title: Proposal on new Token
 layout: service-process
 permalink: apps/minting/business-processes/token
 lang: ru
