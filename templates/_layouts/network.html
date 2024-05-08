@@ -46,26 +46,12 @@
             {{ page.description }}
           </h3>
         </div>
-        <div class="app-dapp-btn__block d-flex col-6 flex-column align-items-end p-2">
-          {% if page.disabled %}
-          <a
-            href="{{page.create-account-link}}"
-            class="btn btn-disabled btn-primary btn-lg p-2 d-flex justify-content-center"
-            style="
-              background: #1976D2;
-              max-width: 280px;
-              width: 100%;"
-            tabindex="-1"
-            role="button"
-            target="_blank"
-          >
-            {{page.create-account}}
-            <img width="26px" style="margin-left: 10px;" src="{{baseurl}}/assets/graphics/images/external-link.svg"></img>
-          </a>
-          {% else %}
+        {% if page.create-account-link %}
+          <div class="app-dapp-btn__block d-flex col-6 flex-column align-items-end p-2">
+            {% if page.disabled %}
             <a
               href="{{page.create-account-link}}"
-              class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
+              class="btn btn-disabled btn-primary btn-lg p-2 d-flex justify-content-center"
               style="
                 background: #1976D2;
                 max-width: 280px;
@@ -77,8 +63,24 @@
               {{page.create-account}}
               <img width="26px" style="margin-left: 10px;" src="{{baseurl}}/assets/graphics/images/external-link.svg"></img>
             </a>
-          {% endif %}
-        </div>
+            {% else %}
+              <a
+                href="{{page.create-account-link}}"
+                class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
+                style="
+                  background: #1976D2;
+                  max-width: 280px;
+                  width: 100%;"
+                tabindex="-1"
+                role="button"
+                target="_blank"
+              >
+                {{page.create-account}}
+                <img width="26px" style="margin-left: 10px;" src="{{baseurl}}/assets/graphics/images/external-link.svg"></img>
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
       </div>
       <div class="col text-primary d-flex mt-3 flex-column align-items-start animate__animated animate__fadeInRight">
         <h3 class="fw-light fs-5" style="
