@@ -31,13 +31,15 @@ enterprise-description: Information and management of organizations<br> or compa
 community-description: Personal profiles and user settings<br> for account management
 see-more: See more
 
-# contact section
-contact-section-title: Early access and adoption of the IXOlist is by-invitation-only.<br>Please contact us if you are interested in learning more.
-get-started: Get Started
-your-name: Your Name
-your-email: Your Email
-your-message: Your Message
-contact-us: Contact Us
+# networks section
+to-use-ixolist: To use IXOlist service apps need to have a blockchain account and Web3 authroization tool aka wallet.
+blockchain-interoperability: Blockchain Interoperability
+supported: Supported
+featured: Featured
+antelope-framework-family: Antelope Framework family
+web3-authentication-tools: Web3 Authentication tools
+
+contact-us: Contact us
 ---
 
 

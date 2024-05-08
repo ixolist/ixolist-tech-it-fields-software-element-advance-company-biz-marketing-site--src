@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <title>
+      {{ page.title }}
+    </title>
+    <meta name="description" content="We ensure that clients participate in promising cryptocurrency projects, and also create a bridge between cryptocurrencies and business development for greater efficiency and effectiveness.">
+    <meta name="keywords" content="IXOList, cryptocurrencies, ICO, blockchain, news, analytics, reviews, investments. IXOList, криптовалюты, ICO, блокчейн, аналитика, инвестиции">
+    <meta name="author" content="IXOList">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link href="{{baseurl}}/assets/styles/css/new-styles.css" rel="stylesheet">
+    <link rel="preload" as="image" href="{{baseurl}}/assets/graphics/images/background.webp"/>
+    <!-- Include animations -->
+    {% include animations.html %}
+    {% include bootstrap.html %}
+  </head>
+  <body>
+    <div class="header sticky-top shadow-lg" style="
+      background: #1976D2;
+    ">
+      <div class="container px-2 d-flex">
+        <div class="col">
+          <div class="header-logo d-flex fs-5 p-3 align-items-center">
+            <a href="/">IXOlist</a>
+            {% include breadcrumbs.html %}
+          </div>
+        </div>
+        {% include multilang-buttons.html %}
+      </div>
+    </div>
+    <div class="container p-4">
+      <div class="col text-primary d-flex mt-2 mb-3 flex-row align-items-start  animate__animated animate__fadeInDown">
+        <div class="col">
+          <h1 class="fw-bold display-4" style="
+            color: #1976D2;
+            line-height: 60px;"
+          >
+            {{ page.page-title }}
+          </h1>
+        </div>
+      </div>
+      <form
+        class=" animate__animated animate__fadeInLeft"
+        action="{{ site.usebasinUrl }}"
+        method="POST"
+        enctype="multipart/form-data"
+        id="form"
+      >
+        <div class="form__input">
+          <label for="form__name" for="name">{{ page.your-name }}</label>
+          <input id="form__name" type="text" name="name" />
+        </div>
+        <div class="form__input">
+          <label for="form__email">{{ page.your-email }}</label>
+          <input id="form__email" type="email" name="email" required />
+        </div>
+        <div class="form__input">
+          <label for="form__subject">{{ page.your-subject }}</label>
+          <input id="form__subject" type="subject" name="subject" required />
+        </div>
+        <div class="form__input">
+          <label for="form__message">{{ page.your-message }}</label>
+          <textarea id="form__message" name="message"></textarea>
+        </div>
+        <button class="btn btn-primary btn-lg mt-4 p-2" style="
+          background: #1976D2;
+          max-width: 280px;
+          width: 100%;" type="submit">
+            {{ page.contact-us }}
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

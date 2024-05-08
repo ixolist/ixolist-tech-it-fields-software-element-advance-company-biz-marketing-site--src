@@ -176,7 +176,7 @@ html, body {
 }
 
 .tag {
-  color: #1976D2;
+  color: #fff;
   text-decoration: none;
   font-size: 8px;
   font-weight: lighter;
@@ -190,7 +190,7 @@ html, body {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #1976D2;
+  background-color: #fff;
   content: "";
   transition: width 0.3s ease-out;
 }
@@ -204,24 +204,24 @@ html, body {
   display: flex;
   flex-direction: column;
   max-width: 632px;
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 
 .form__input > label {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.01em;
-  color: #fff;;
+  color: #1976D2;;
   margin-bottom: 16px;
 }
 
 .form__input > input {
   height: 56px;
   border-radius: 0.5rem;
-  border: 2px solid #fff;;
+  border: 2px solid #1976D2;;
   outline: none;
   background: transparent;
-  color: #fff;;
+  color: #1976D2;;
   font-size: 16px;
   padding: 0 24px;
 }
@@ -230,10 +230,10 @@ html, body {
   padding: 24px;
   min-height: 216px;
   border-radius: 0.5rem;
-  border: 2px solid #fff;
+  border: 2px solid #1976D2;
   outline: none;
   background: transparent;
-  color: #fff;
+  color: #1976D2;
   font-size: 16px;
 }
 
@@ -537,4 +537,26 @@ form > button:hover {
   cursor: pointer;
   opacity: .5;
   transition: .3s;
+}
+
+.about-page__link {
+  text-decoration: none;
+  cursor: pointer;
+  color:#1976D2;
+}
+
+.about-page__link:after {
+  display: block;
+  position: relative;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1976D2;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+
+.about-page__link:hover:after,
+.about-page__link:focus:after {
+  width: 100%;
 }

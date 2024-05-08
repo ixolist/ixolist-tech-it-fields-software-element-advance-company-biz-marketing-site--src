@@ -63,7 +63,7 @@
         align-items-center
         desktop-services-block"
       >
-        <div class="fs-4 fw-light text-white animate__animated animate__fadeInLeft">{{page.services-title}}</div>
+        <div class="px-4 fs-3 fw-light text-white text-center animate__animated animate__fadeInLeft">{{page.services-title}}</div>
         <div class="services-block__buttons w-100 col-6 p-4 text-white d-flex flex-column animate__animated animate__fadeInLeft">
           <a href="/apps/bank" class="services__btn fw-light" id="Bank" style="width: 100%; margin-bottom: 10px;">
             {{ page.bank }}
@@ -85,9 +85,47 @@
         </div>
       </div>
     </div>
-    <div class="section py-4" style="
-      background: #fff;
-    ">
+    <div class="section py-4">
+      <div class="
+        container
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+        animate__animated
+        animate__fadeInLeft
+      ">
+        <div class="fs-3 px-3 fw-light animate__animated animate__fadeInLeft text-center" style="color: #1976D2;">{{page.to-use-ixolist}}</div>
+        <div class="container d-flex flex-column mt-4">
+          <div class="px-4 mb-3 fw-bold fs-5 fw-light animate__animated animate__fadeInLeft text-center" style="color: #1976D2;">{{page.blockchain-interoperability}}</div>
+          <div class="border d-flex">
+            <div class="border w-100">
+              <div class="px-4 fs-5 fw-light animate__animated animate__fadeInLeft text-center" style="color: #1976D2; word-break: break-all">{{page.supported}}</div>
+            </div>
+            <div class="border w-100">
+              <div class="px-4 fs-5 fw-light animate__animated animate__fadeInLeft text-center" style="color: #1976D2; word-break: break-all">{{page.featured}}</div>
+            </div>
+          </div>
+          <div class="border">
+            <div class="px-4 fs-5 fw-light animate__animated animate__fadeInLeft text-center" style="color: #1976D2;">{{page.antelope-framework-family}}</div>
+          </div>
+          <div class="border d-flex">
+            <div class="border w-100 p-2 d-flex align-items-center flex-column">
+              <a href="/blockchain/antelope-framework/jungle" class="about-page__link px-4 fs-5 fw-light">Jungle</a>
+            </div>
+            <div class="border w-100 d-flex align-items-center p-2 flex-column">
+            <a href="/blockchain/antelope-framework/eos" class="about-page__link px-4 fs-5 fw-light">EOS</a>
+            <a href="/blockchain/antelope-framework/telos" class="about-page__link px-4 fs-5 fw-light">Telos</a>
+            </div>
+          </div>
+          <div class="px-4 my-3 fw-bold fs-5 fw-light animate__animated animate__fadeInLeft text-center" style="color: #1976D2;">{{page.web3-authentication-tools}}</div>
+          <div class="w-100 border d-flex align-items-center flex-column">
+            <a href="/web3-authentication-tools/anchor" class="about-page__link px-4 fs-5 fw-light">Anchor</a>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="section section--with-bg py-4">
       <div class="
         container
         d-flex
@@ -107,53 +145,45 @@
         {% endif %}
       </div>
     </div>
-    <div class="section section--with-bg d-flex flex-column py-4">
+    <div class="section d-flex flex-column py-4">
       <div class="
         container
         d-flex
-        form-container"
+        form-container justify-content-center align-items-center"
       >
-        <div class="col p-3 text-white d-flex animate__animated animate__fadeInDown">
-          <h1 class="display-7 fw-normal">{{ page.get-started }}</h1>
-        </div>
-        <div class="col p-3">
-          <div class="text-white fs-4 fw-light mb-4">{{ page.contact-section-title }}</div>
-          <form
-            action="{{ site.usebasinUrl }}"
-            method="POST"
-            enctype="multipart/form-data"
-            id="form"
-          >
-            <div class="form__input">
-              <label for="form__name" for="name">{{ page.your-name }}</label>
-              <input id="form__name" type="text" name="name" />
-            </div>
-            <div class="form__input">
-              <label for="form__email">{{ page.your-email }}</label>
-              <input id="form__email" type="email" name="email" required />
-            </div>
-            <div class="form__input">
-              <label for="form__message">{{ page.your-message }}</label>
-              <textarea id="form__message" name="message"></textarea>
-            </div>
-            <button class="btn btn-primary btn-lg mt-4 p-2" style="
-              background: #1976D2;
-              max-width: 280px;
-              width: 100%;" type="submit">
-                {{ page.contact-us }}
-            </button>
-          </form>
-        </div>
+      {% if page.lang == "en" %}
+        <a
+          href="/contact-us/email-form"
+          class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
+          style="
+            background: #1976D2;
+            max-width: 320px;
+            width: 100%;"
+          tabindex="-1"
+          role="button"
+        >{{page.contact-us}}</a>
+      {% else %}
+        <a
+          href="/ru/contact-us/email-form"
+          class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
+          style="
+            background: #1976D2;
+            max-width: 320px;
+            width: 100%;"
+          tabindex="-1"
+          role="button"
+        >{{page.contact-us}}</a>
+      {% endif %}
       </div>
-      <div class="socials w-100 d-flex justify-content-center align-items-center p-4">
+      <div class="socials w-100 d-flex justify-content-center align-items-center px-4 pt-4">
         <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/telegram-icon.svg" alt="footer-icon-telegram"></img>
+          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/matrix-icon.svg" alt="footer-icon-matrix"></img>
         </a>
         <a href="#">
           <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/discord-icon.svg" alt="footer-icon-discord"></img>
         </a>
         <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/matrix-icon.svg" alt="footer-icon-matrix"></img>
+          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/telegram-icon.svg" alt="footer-icon-telegram"></img>
         </a>
         <a href="#">
           <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/twitter-x-icon.svg" alt="footer-icon-twitter"></img>

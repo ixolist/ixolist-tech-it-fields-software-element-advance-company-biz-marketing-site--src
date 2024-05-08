@@ -21,6 +21,14 @@ minting: Minting
 bank: Bank
 enterprise: Enterprise
 
+# networks section
+to-use-ixolist: Для использования сервисных приложений IXOlist необходима учетная запись блокчейна и инструмент авторизации Web3, также известный как кошелек.
+blockchain-interoperability: Cовместимость с блокчейном
+supported: Поддерживается
+featured: Планируется
+antelope-framework-family: Antelope Framework family
+web3-authentication-tools: Инструменты аутентификации Web3
+
 # services descriptions
 services-title: IXOlist — платформа, построенная на пяти сервисных приложениях.
 
@@ -31,13 +39,7 @@ enterprise-description: Управление организациями<br> ил
 community-description: Управление аккаунтом, профили и пользовательские настройки
 see-more: Узнать больше
 
-# contact section
-contact-section-title: Ранний доступ в IXOlist допуступен только по приглашениям.<br>Пожалуйста, свяжитесь с нами, если вы хотите узнать больше.
-get-started: Начать
-your-name: Ваше имя
-your-email: Ваша электронная почта
-your-message: Ваше сообщение
-contact-us: Связаться с нами
+contact-us: Свяжитесь с нами
 ---
 
 
