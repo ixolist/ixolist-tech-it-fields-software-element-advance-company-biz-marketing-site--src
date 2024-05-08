@@ -277,6 +277,7 @@ form > button:hover {
   text-decoration: none;
   color: #fff;
   transition: .3s;
+  white-space: nowrap;
 }
 
 #breadcrumbs > a:hover {
@@ -410,6 +411,10 @@ form > button:hover {
 }
 
 #apps:target{
+  scroll-margin-top: 79px;
+}
+
+#networks:target {
   scroll-margin-top: 79px;
 }
 
@@ -559,4 +564,9 @@ form > button:hover {
 .about-page__link:hover:after,
 .about-page__link:focus:after {
   width: 100%;
+}
+
+.btn-disabled {
+  opacity: 0.5;
+  pointer-events: none;
 }
