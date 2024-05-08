@@ -9,7 +9,7 @@ diagramUrl: ru/apps/minting/business-processes/overall/diagrams
 videoUrl: ru/apps/minting/business-processes/overall/ux-videos
 screensUrl: ru/apps/minting/business-processes/overall/ui-screens
 ---
-{% assign sorted_diagrams = site.data.diagrams.minting.business-processes.main | sort: name %}
+{% assign sorted_diagrams = site.data.diagrams.minting.business-processes.others | sort: name %}
 {% for item_hash in sorted_diagrams %} {% assign item = item_hash[1] %}
   {% include service-process-card.html item=item %}
 {% endfor %}
