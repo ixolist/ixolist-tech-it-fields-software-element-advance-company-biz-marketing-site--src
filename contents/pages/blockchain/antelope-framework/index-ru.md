@@ -1,8 +1,8 @@
 ---
 layout: network
-title: Antelope Frameworks
-permalink: /blockchain/antelope-frameworks/
+title: Antelope Framework
+permalink: /blockchain/antelope-framework/
 lang: ru
-page_id: antelope-frameworks
+page_id: antelope-framework
 detail-description: Antelope Frameworks — это набор блокчейн-протоколов и инструментов, предназначенный для улучшения производительности, масштабируемости и безопасности децентрализованных приложений. Он включает в себя передовые технологии, такие как механизмы консенсуса, системы управления ресурсами и инструменты для разработчиков, которые облегчают создание и поддержку блокчейн-сетей и приложений. Antelope предоставляет универсальную основу, которая может быть адаптирована под различные проекты в экосистеме блокчейна, обеспечивая высокую степень интероперабельности и гибкости.
 ---

@@ -1,7 +1,7 @@
 ---
 layout: network
 title: EOS
-permalink: /blockchain/antelope-frameworks/eos/
+permalink: /blockchain/antelope-framework/eos/
 lang: en
 page_id: antelope-framework-eos
 breadcrumbs-title: EOS

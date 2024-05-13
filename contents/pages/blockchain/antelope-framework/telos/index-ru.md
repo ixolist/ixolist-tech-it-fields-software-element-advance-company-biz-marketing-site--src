@@ -1,7 +1,7 @@
 ---
 layout: network
 title: Telos
-permalink: /blockchain/antelope-frameworks/telos/
+permalink: /blockchain/antelope-framework/telos/
 lang: ru
 page_id: antelope-framework-telos
 breadcrumbs-title: Telos

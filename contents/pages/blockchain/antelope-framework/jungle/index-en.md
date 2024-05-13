@@ -1,7 +1,7 @@
 ---
 layout: network
 title: Jungle
-permalink: /blockchain/antelope-frameworks/jungle/
+permalink: /blockchain/antelope-framework/jungle/
 lang: en
 page_id: antelope-framework-jungle
 breadcrumbs-title: Jungle

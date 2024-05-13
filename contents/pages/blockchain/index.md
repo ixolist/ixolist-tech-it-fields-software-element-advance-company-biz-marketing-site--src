@@ -1,6 +1,6 @@
 ---
 layout: redirect-to-networks
-title: Antelope Frameworks
+title: Antelope Framework
 permalink: /blockchain/
 ---
 <script src="{{baseurl}}/assets/scripts/other/redirect-to-networks.js"></script>
