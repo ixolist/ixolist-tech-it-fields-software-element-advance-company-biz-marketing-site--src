@@ -364,6 +364,11 @@ form > button:hover {
   opacity: .5;
 }
 
+.diagram__container {
+  outline: 5px solid #fff;
+  outline-offset: -2px;
+}
+
 .diagram__container-scroll {
   display: none;
   z-index: 100;
