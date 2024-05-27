@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <title>
+      {{ page.title }}
+    </title>
+    <meta name="description" content="We ensure that clients participate in promising cryptocurrency projects, and also create a bridge between cryptocurrencies and business development for greater efficiency and effectiveness.">
+    <meta name="keywords" content="IXOList, cryptocurrencies, ICO, blockchain, news, analytics, reviews, investments. IXOList, криптовалюты, ICO, блокчейн, аналитика, инвестиции">
+    <meta name="author" content="IXOList">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta property="og:image" content="{{baseurl}}/assets/graphics/images/open-graph-img.jpg"/>
+    <meta property="og:description" content="We are creating a Web3 platform for people and organizations to provide the opportunity to participate in honest and reliable cryptocurrency projects, and also creating a bridge between the crypto world and business development for greater efficiency and effectiveness."/>
+    <link rel="icon" type="image/x-icon" href="{{baseurl}}/assets/graphics/images/favico.ico">
+    <link rel="preload" as="image" href="{{baseurl}}/assets/graphics/images/background.webp"/>
+    <link href="{{baseurl}}/assets/styles/css/new-styles.css" rel="stylesheet">
+    <!-- Include animations -->
+    {% include animations.html %}
+    {% include bootstrap.html %}
+  </head>
+  <body>
+    <div class="header sticky-top shadow-lg" style="
+      background: #1976D2;
+    ">
+      <div class="container px-2 d-flex">
+        <div class="col">
+          <div class="header-logo d-flex fs-5 p-3 align-items-center">
+            <a href="/">IXOlist</a>
+            {% include breadcrumbs.html %}
+          </div>
+        </div>
+        {% include multilang-buttons.html %}
+      </div>
+    </div>
+    <div class="container p-4">
+      <div class="col text-primary d-flex mt-4 flex-row align-items-start  animate__animated animate__fadeInDown">
+        <div class="col">
+          <h1 class="fw-bold display-4" style="
+            color: #1976D2;
+            line-height: 60px;"
+          >
+            {{ page.title }}
+          </h1>
+          <h3 class="fw-semibold fs-5" style="
+            color: #1976D2;
+            line-height: 46px;"
+          >
+            {{ page.description }}
+          </h3>
+        </div>
+      </div>
+      <div id="apps">
+        <div class="
+          container
+          justify-content-center
+          align-items-center
+          desktop-services-block mt-2"
+          style="padding-left: 0;"
+          >
+          <div class="services-block__buttons w-100 col-6 text-white d-flex flex-column animate__animated animate__fadeInLeft">
+            <a href="/apps/bank" class="services__btn fw-light" id="Bank" style="width: 100%; margin-bottom: 10px;">
+              {{ page.bank }}
+            </a>
+            <div class="services__buttons">
+              <a href="/apps/minting" class="services__btn fw-light" id="Minting">
+                {{ page.minting }}
+              </a>
+              <a href="/apps/offering" class="services__btn fw-light" id="Offering">
+                {{ page.offering }}
+              </a>
+              <a href="/apps/community" class="services__btn fw-light" id="Me">
+                {{ page.community }}
+              </a>
+              <a href="/apps/enterprise" class="services__btn fw-light" id="Organizations">
+                {{ page.enterprise}}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-primary d-flex mt-3 flex-column align-items-start animate__animated animate__fadeInRight">
+        <h3 class="fw-light fs-5" style="
+          color: #1976D2;
+          line-height: 46px;"
+        >
+          {{ page.detail-description }}
+        </h3>
+      </div>
+      <div class="d-flex flex-row animate__animated animate__fadeInLeft">
+        {% if page.lang == "en" %}
+          <a href="./architectures" style="text-align: center;" class="diagram-card--no-outline p-2 w-100">Architectures</a>
+          <a href="./business-processes" style="text-align: center;" class="diagram-card--no-outline p-2 w-100">Business Processes</a>
+          <a href="./smart-contracts" style="text-align: center;" class="diagram-card--no-outline p-2 w-100">Smart Contracts</a>
+        {% else %}
+          <a href="./architectures" style="text-align: center;" class="diagram-card--no-outline p-2 w-100">Архитектуры</a>
+          <a href="./business-processes" style="text-align: center;" class="diagram-card--no-outline p-2 w-100">Бизнес процессы</a>
+          <a href="./smart-contracts" style="text-align: center;" class="diagram-card--no-outline p-2 w-100">Смарт контракты</a>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+  <script src="{{baseurl}}/assets/scripts/app/script.js"></script>
+</html>

@@ -30,7 +30,7 @@ antelope-framework-family: Antelope Framework family
 web3-authentication-tools: Инструменты аутентификации Web3
 
 # services descriptions
-services-title: IXOlist — платформа, построенная на пяти сервисных приложениях.
+services-title: IXOlist — платформа, построенная на <span class="service-apps__btn--link"><a href="/ru/apps">пяти сервисных приложениях</a></span>
 
 offering-description: Создание и управление кампаниями
 bank-description: Управление финансовыми операциями

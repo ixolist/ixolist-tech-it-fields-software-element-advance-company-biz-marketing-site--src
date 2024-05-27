@@ -22,7 +22,7 @@ bank: Bank
 enterprise: Enterprise
 
 # services descriptions
-services-title: IXOlist is a platform built on five service apps
+services-title: IXOlist is a platform built on <span class="service-apps__btn--link"><a href="/apps">five service apps</a></span>
 
 offering-description: Creating and managing campaigns
 bank-description: Management of financial operations
