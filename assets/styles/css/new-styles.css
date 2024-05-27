@@ -487,6 +487,11 @@ form > button:hover {
 }
 
 @media screen and (max-width: 768px) {  
+  .second-block__title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .main-subtitle-block {
     line-height: 36px;
   }
@@ -598,3 +603,4 @@ form > button:hover {
   border: 4px dashed #1976D2;
   transition: .2s;
 }
+
