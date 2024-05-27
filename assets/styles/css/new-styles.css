@@ -393,6 +393,11 @@ form > button:hover {
   display: none;
 }
 
+.socials {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .socials > a {
   margin: 0 10px;
   transition: .3s;
