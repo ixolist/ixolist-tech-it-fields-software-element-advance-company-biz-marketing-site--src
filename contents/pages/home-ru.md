@@ -22,7 +22,7 @@ bank: Bank
 enterprise: Enterprise
 
 # networks section
-to-use-ixolist: Для использования сервисных приложений IXOlist необходима учетная запись блокчейна и инструмент авторизации Web3, также известный как кошелек.
+to-use-ixolist: Для использования <a href="/apps">сервисных приложений</a> IXOlist необходима учетная запись <a href="/blockchain">блокчейна</a> и <a href="/web3-authentication-tools">инструмент авторизации Web3</a>, также известный как кошелек.
 blockchain-interoperability: Cовместимость с блокчейном
 supported: поддерживается
 featured: планируется

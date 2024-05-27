@@ -32,7 +32,7 @@ community-description: Personal profiles and user settings<br> for account manag
 see-more: See more
 
 # networks section
-to-use-ixolist: To use IXOlist service apps need to have a blockchain account and Web3 authroization tool aka wallet.
+to-use-ixolist: To use IXOlist <a href="/apps">service apps</a> need to have a <a href="/blockchain">blockchain</a> account and <a href="/web3-authentication-tools">Web3 authroization tool</a> aka wallet.
 blockchain-interoperability: Blockchain Interoperability
 supported: supported
 featured: featured
