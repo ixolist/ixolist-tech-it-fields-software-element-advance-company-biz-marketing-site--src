@@ -38,13 +38,14 @@
     </div>
   </div>
   <body>
-    <div class="section d-flex flex-column py-4">
+    <div class="section--home d-flex flex-column py-4">
       <div class="
         container
         d-flex
         flex-row
-        justify-content-end
-        align-items-center"
+        justify-content-start
+        align-items-start"
+        style="min-height: 650px;"
       >
         <div class="col px-3 text-white d-flex flex-column aling-items-center animate__animated animate__fadeInDown">
           <h1 class="display-1 fw-bold" style="color: #1976D2; margin-bottom: 0;">{{ page.main-title }}</h1>
@@ -54,108 +55,79 @@
             <img class="phone-img img-fluid" style="float: right;" src="../assets/graphics/images/phone-3.webp" alt="phone-image-3"></img>
             <img class="phone-img img-fluid" style="float: right;" src="../assets/graphics/images/phone-4.webp" alt="phone-image-4"></img>
             <img class="phone-img img-fluid" style="float: right;" src="../assets/graphics/images/phone-5.webp" alt="phone-image-5"></img>
-            <p class="main-subtitle-block">{{ page.main-subtitle}}</p>
-</h3>
+            <p class="main-subtitle-block">{{ page.main-subtitle}}
+            <a
+              href="/apps"
+              class="btn btn-primary btn-lg p-2 d-flex justify-content-center mt-4"
+              style="
+                background: #1976D2;
+                max-width: 320px;
+                width: 100%;"
+              tabindex="-1"
+              role="button"
+            >{{page.learn-more}}</a>
+            </p>
+          </h3>
         </div>
       </div>
-    </div>
-    <div id="apps" class="section section--with-bg py-4">
-      <div class="
-        container
-        justify-content-center
-        align-items-center
-        desktop-services-block"
-      >
-        <div class="px-4 fs-3 fw-light text-white text-center animate__animated animate__fadeInLeft second-block__title">{{page.services-title}}</div>
-      </div>
-    </div>
-    <div class="section py-4" id="networks">
-      <div class="
-        container
-        d-flex
-        flex-column
-        justify-content-center
-        align-items-center
-        animate__animated
-        animate__fadeInLeft
-      ">
-        <div class="fs-3 px-3 fw-light animate__animated animate__fadeInLeft text-center" style="color: #1976D2;">{{page.to-use-ixolist}}</div>
-      </div>
-    </div>
-    <!-- <div class="section section--with-bg py-4">
-      <div class="
-        container
-        d-flex
-        flex-row
-        justify-content-center
-        align-items-center
-        animate__animated
-        animate__fadeInLeft
-        p-4
-      ">
+    
+    <footer>
+      <div class="section d-flex flex-column py-4 mt-5 animate__animated animate__fadeInUp">
+        <div class="
+          container
+          d-flex
+          form-container justify-content-center align-items-center"
+          style="padding: 0 28px;"
+        >
         {% if page.lang == "en" %}
-          {% include cloud-tags/cloud-tags-en-desktop.html %}
-          {% include cloud-tags/cloud-tags-en-mobile.html %}
+          <a
+            href="/contact-us/email-form"
+            class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
+            style="
+              background: #1976D2;
+              max-width: 320px;
+              width: 100%;"
+            tabindex="-1"
+            role="button"
+          >{{page.contact-us}}</a>
         {% else %}
-          {% include cloud-tags/cloud-tags-ru-desktop.html %}
-          {% include cloud-tags/cloud-tags-ru-mobile.html %}
+          <a
+            href="/ru/contact-us/email-form"
+            class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
+            style="
+              background: #1976D2;
+              max-width: 320px;
+              width: 100%;"
+            tabindex="-1"
+            role="button"
+          >{{page.contact-us}}</a>
         {% endif %}
+        </div>
+        <div class="socials w-100 d-flex justify-content-center align-items-center px-4 pt-4">
+          <a href="https://ixolist-mass-media.netlify.app" target="_blank">
+            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/news.svg" alt="footer-icon-news"></img>
+          </a>
+          <a href="#">
+            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/matrix-icon.svg" alt="footer-icon-matrix"></img>
+          </a>
+          <a href="#">
+            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/discord-icon.svg" alt="footer-icon-discord"></img>
+          </a>
+          <a href="#">
+            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/telegram-icon.svg" alt="footer-icon-telegram"></img>
+          </a>
+          <a href="#">
+            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/twitter-x-icon.svg" alt="footer-icon-twitter"></img>
+          </a>
+          <a href="#">
+            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/youtube-icon.svg" alt="footer-icon-youtube"></img>
+          </a>
+          <a href="#">
+            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/github-icon.svg" alt="footer-icon-github"></img>
+          </a>
+        </div>
       </div>
-    </div> -->
-    <div class="section section--with-bg d-flex flex-column py-4">
-      <div class="
-        container
-        d-flex
-        form-container justify-content-center align-items-center"
-      >
-      {% if page.lang == "en" %}
-        <a
-          href="/contact-us/email-form"
-          class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
-          style="
-            background: #1976D2;
-            max-width: 430px;
-            width: 100%;"
-          tabindex="-1"
-          role="button"
-        >{{page.contact-us}}</a>
-      {% else %}
-        <a
-          href="/ru/contact-us/email-form"
-          class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
-          style="
-            background: #1976D2;
-            max-width: 320px;
-            width: 100%;"
-          tabindex="-1"
-          role="button"
-        >{{page.contact-us}}</a>
-      {% endif %}
-      </div>
-      <div class="socials w-100 d-flex justify-content-center align-items-center px-4 pt-4">
-        <a href="https://ixolist-mass-media.netlify.app" target="_blank">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/news.svg" alt="footer-icon-news"></img>
-        </a>
-        <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/matrix-icon.svg" alt="footer-icon-matrix"></img>
-        </a>
-        <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/discord-icon.svg" alt="footer-icon-discord"></img>
-        </a>
-        <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/telegram-icon.svg" alt="footer-icon-telegram"></img>
-        </a>
-        <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/twitter-x-icon.svg" alt="footer-icon-twitter"></img>
-        </a>
-        <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/youtube-icon.svg" alt="footer-icon-youtube"></img>
-        </a>
-        <a href="#">
-          <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/github-icon.svg" alt="footer-icon-github"></img>
-        </a>
-      </div>
-    </div>
+    </footer>
   </body>
   <script src="{{baseurl}}/assets/scripts/home/script.js"></script>
 </html>

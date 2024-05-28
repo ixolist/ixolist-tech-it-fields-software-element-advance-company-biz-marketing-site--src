@@ -7,9 +7,10 @@ page_id: home
 
 # global title
 main-title: IXOlist
-main-subtitle: We are creating a <a href="https://en.wikipedia.org/wiki/Web3" target="_blank">Web3</a> platform for people and organizations to provide the opportunity to participate in honest and reliable cryptocurrency projects, and also creating a bridge between the crypto world and business development for greater efficiency and effectiveness.
-
+main-subtitle: Top efficient <a href="https://en.wikipedia.org/wiki/Web3" target="_blank">Web3</a> platform for people and organizations to provide the opportunity to participate in honest and reliable cryptocurrency projects, and also creating a bridge between the crypto world and business development for greater cooperation and trust.
 try: Try
+
+learn-more: Learn More
 
 # second block
 second-block-text: We ensure that clients participate in promising cryptocurrency projects, and also create a bridge between cryptocurrencies and business development for greater efficiency and effectiveness.

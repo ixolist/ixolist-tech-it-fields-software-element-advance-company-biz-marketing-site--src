@@ -491,6 +491,12 @@ form > button:hover {
   }
 }
 
+@media screen and (max-width: 420px) { 
+  .services__btn {
+    padding: 8px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {  
   .second-block__title {
     display: flex;
@@ -608,4 +614,3 @@ form > button:hover {
   border: 4px dashed #1976D2;
   transition: .2s;
 }
-
