@@ -79,52 +79,52 @@
           form-container justify-content-center align-items-center"
           style="padding: 0 28px;"
         >
-        {% if page.lang == "en" %}
-          <a
-            href="/contact-us/email-form"
-            class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
-            style="
-              background: #1976D2;
-              max-width: 320px;
-              width: 100%;"
-            tabindex="-1"
-            role="button"
-          >{{page.contact-us}}</a>
-        {% else %}
-          <a
-            href="/ru/contact-us/email-form"
-            class="btn btn-primary btn-lg p-2 d-flex justify-content-center"
-            style="
-              background: #1976D2;
-              max-width: 320px;
-              width: 100%;"
-            tabindex="-1"
-            role="button"
-          >{{page.contact-us}}</a>
-        {% endif %}
-        </div>
-        <div class="socials w-100 d-flex justify-content-center align-items-center px-4 pt-4">
-          <a href="https://ixolist-mass-media.netlify.app" target="_blank">
-            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/news.svg" alt="footer-icon-news"></img>
-          </a>
-          <a href="#">
-            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/matrix-icon.svg" alt="footer-icon-matrix"></img>
-          </a>
-          <a href="#">
-            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/discord-icon.svg" alt="footer-icon-discord"></img>
-          </a>
-          <a href="#">
-            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/telegram-icon.svg" alt="footer-icon-telegram"></img>
-          </a>
-          <a href="#">
-            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/twitter-x-icon.svg" alt="footer-icon-twitter"></img>
-          </a>
-          <a href="#">
-            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/youtube-icon.svg" alt="footer-icon-youtube"></img>
-          </a>
-          <a href="#">
-            <img style="width: 36px;" src="{{baseUrl}}/assets/graphics/images/github-icon.svg" alt="footer-icon-github"></img>
-          </a>
+          <div style="max-width: 320px;" class="d-flex flex-column align-items-center w-100">
+            {% if page.lang == "en" %}
+              <a
+                href="/contact-us/email-form"
+                class="contact-us__btn btn btn-primary btn-lg p-2 d-flex justify-content-center"
+                style="
+                  background: #1976D2;
+                  width: 100%;"
+                tabindex="-1"
+                role="button"
+              >{{page.contact-us}}</a>
+            {% else %}
+              <a
+                href="/ru/contact-us/email-form"
+                class="contact-us__btn btn btn-primary btn-lg p-2 d-flex justify-content-center"
+                style="
+                  background: #1976D2;
+                  width: 100%;"
+                tabindex="-1"
+                role="button"
+              >{{page.contact-us}}</a>
+            {% endif %}
+            <div class="socials w-100 d-flex mt-4 align-items-center">
+              <a href="https://ixolist-mass-media.netlify.app" target="_blank">
+                <img style="width: 22px;" src="{{baseUrl}}/assets/graphics/images/news.svg" alt="footer-icon-news"></img>
+              </a>
+              <a href="#">
+                <img style="width: 22px;" src="{{baseUrl}}/assets/graphics/images/matrix-icon.svg" alt="footer-icon-matrix"></img>
+              </a>
+              <a href="#">
+                <img style="width: 22px;" src="{{baseUrl}}/assets/graphics/images/discord-icon.svg" alt="footer-icon-discord"></img>
+              </a>
+              <a href="#">
+                <img style="width: 22px;" src="{{baseUrl}}/assets/graphics/images/telegram-icon.svg" alt="footer-icon-telegram"></img>
+              </a>
+              <a href="#">
+                <img style="width: 22px;" src="{{baseUrl}}/assets/graphics/images/twitter-x-icon.svg" alt="footer-icon-twitter"></img>
+              </a>
+              <a href="#">
+                <img style="width: 22px;" src="{{baseUrl}}/assets/graphics/images/youtube-icon.svg" alt="footer-icon-youtube"></img>
+              </a>
+              <a href="#">
+                <img style="width: 22px;" src="{{baseUrl}}/assets/graphics/images/github-icon.svg" alt="footer-icon-github"></img>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

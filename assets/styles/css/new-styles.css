@@ -75,6 +75,12 @@ html, body {
   margin: 0 10px;
 }
 
+.services-block__buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
 .services__buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -394,12 +400,22 @@ form > button:hover {
 }
 
 .socials {
-  flex-wrap: wrap;
-  gap: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.socials > a {
+.socials > a:not(:first-of-type):not(:last-of-type) {
   margin: 0 10px;
+  transition: .3s;
+}
+
+.socials > a:first-of-type {
+  margin-right: 10px;
+  transition: .3s;
+}
+
+.socials > a:last-of-type {
+  margin-left: 10px;
   transition: .3s;
 }
 
@@ -613,4 +629,17 @@ form > button:hover {
   color: #1976D2;
   border: 4px dashed #1976D2;
   transition: .2s;
+}
+
+.apps-description__link {
+  text-decoration: none;
+  background:rgba(0, 0, 0, 0.05);
+  padding: 5px;
+  border-radius: 0.5rem;
+}
+
+.contact-us__btn {
+  background: transparent !important;
+  border: 2px solid #1976D2 !important;
+  color: #1976D2 !important;
 }
