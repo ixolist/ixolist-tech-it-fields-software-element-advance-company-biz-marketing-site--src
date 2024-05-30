@@ -633,9 +633,8 @@ form > button:hover {
 
 .apps-description__link {
   text-decoration: none;
-  background:rgba(0, 0, 0, 0.05);
   padding: 5px;
-  border-radius: 0.5rem;
+  border: 2px dotted #1976D2;
 }
 
 .contact-us__btn {
