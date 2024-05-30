@@ -37,16 +37,18 @@
         <div class="col">
           <h1 class="fw-bold display-4" style="
             color: #1976D2;
-            line-height: 60px;"
+            margin: 0;"
           >
             {{ page.title }}
           </h1>
-          <h3 class="fw-semibold fs-5" style="
-            color: #1976D2;
-            line-height: 46px;"
-          >
-            {{ page.description }}
-          </h3>
+          {% if page.description %}
+            <h3 class="fw-semibold fs-5 lh-base mt-4" style="
+              color: #1976D2;
+              margin: 0;"
+            >
+              {{ page.description }}
+            </h3>
+          {% endif %}
         </div>
         {% if page.create-account-link %}
           <div class="app-dapp-btn__block d-flex col-6 flex-column align-items-end p-2">
@@ -84,14 +86,14 @@
           </div>
         {% endif %}
       </div>
-      <div class="col text-primary d-flex mt-3 flex-column align-items-start animate__animated animate__fadeInRight">
-        <h3 class="fw-light fs-5" style="
+      <div class="col text-primary d-flex mt-4 flex-column align-items-start animate__animated animate__fadeInRight">
+        <h3 class="fw-light fs-5 lh-base" style="
           color: #1976D2;
-          line-height: 46px;"
+          margin: 0;"
         >
           {{ page.detail-description }}
         </h3>
-        {{ content }}
+        <div class="mt-4 w-100">{{ content }}</div>
       </div>
     </div>
   </body>

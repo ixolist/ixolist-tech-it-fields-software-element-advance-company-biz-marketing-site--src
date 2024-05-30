@@ -51,6 +51,7 @@ html, body {
 
 .main-subtitle-block {
   max-width: 600px;
+  font-size: 24px;
 }
 
 .multilang-buttons {
@@ -633,7 +634,7 @@ form > button:hover {
 
 .apps-description__link {
   text-decoration: none;
-  padding: 5px;
+  padding: 0 2px;
   border: 2px dotted #1976D2;
 }
 

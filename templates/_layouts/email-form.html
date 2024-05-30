@@ -35,16 +35,16 @@
     <div class="container p-4">
       <div class="col text-primary d-flex mt-2 mb-3 flex-row align-items-start  animate__animated animate__fadeInDown">
         <div class="col">
-          <h1 class="fw-bold display-4" style="
+          <h1 class="fw-bold display-4 lh-base" style="
             color: #1976D2;
-            line-height: 60px;"
+            margin: 0;"
           >
             {{ page.page-title }}
           </h1>
         </div>
       </div>
       <form
-        class=" animate__animated animate__fadeInLeft"
+        class="mt-4 animate__animated animate__fadeInLeft"
         action="{{ site.usebasinUrl }}"
         method="POST"
         enctype="multipart/form-data"
@@ -66,7 +66,7 @@
           <label for="form__message">{{ page.your-message }}</label>
           <textarea id="form__message" name="message"></textarea>
         </div>
-        <button class="btn btn-primary btn-lg mt-4 p-2" style="
+        <button class="btn btn-primary btn-lg mt-2 p-2" style="
           background: #1976D2;
           max-width: 632px !important;
           width: 100%;" type="submit">
