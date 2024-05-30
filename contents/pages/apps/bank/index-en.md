@@ -5,8 +5,11 @@ permalink: apps/bank/
 lang: en
 page_id: apps-bank
 
+
+text-img: /assets/graphics/images/phone-4.webp
+
 description: Management of financial operations
-detail-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor ipsum vitae tincidunt ullamcorper. Nunc eu sapien vitae neque efficitur viverra. Quisque quam libero, fermentum a arcu ac, tempus auctor mauris. Sed dui ex, eleifend eu pharetra eget, lacinia in tellus. Nam ac nibh quis tortor eleifend porttitor gravida quis augue. Pellentesque auctor ullamcorper arcu, quis malesuada nisi feugiat nec. Donec vitae ullamcorper magna. Donec mi tellus, ultricies id justo eu, vulputate volutpat eros. Nam vitae ex in lectus congue mollis. Cras libero metus, pharetra eu sodales id, porta ac quam. Vestibulum sed sagittis metus, vulputate dignissim lacus. Integer rhoncus vitae dui non interdum. Fusce elementum dolor eget molestie feugiat. Sed et leo eu tellus rutrum venenatis in at ante. Curabitur sed orci eu sem hendrerit molestie vitae vel nisi. Duis pellentesque id dui ut posuere.
+detail-description: IXOlist Bank service application provides all the main <a class="apps-description__link" href="/fintech">FinTech</a> features for business customers and consumers like asset management, token transfer and payment history with ability to have DeFi bridges and supports <a class="apps-description__link" href="/blockchain">blockchain</a> interoperability data transport between networks and nodes through <a class="apps-description__link" href="/ibc">IBC protocols</a>.
 dappTestnetUrl: https://ixolist-userapp-bank-demo.netlify.app/#/
 breadcrumbs-title: Bank
 ---
