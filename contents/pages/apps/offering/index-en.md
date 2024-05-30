@@ -9,7 +9,7 @@ page_id: apps-offering
 text-img: /assets/graphics/images/phone.webp
 
 description: Creating and managing campaigns
-detail-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor ipsum vitae tincidunt ullamcorper. Nunc eu sapien vitae neque efficitur viverra. Quisque quam libero, fermentum a arcu ac, tempus auctor mauris. Sed dui ex, eleifend eu pharetra eget, lacinia in tellus. Nam ac nibh quis tortor eleifend porttitor gravida quis augue. Pellentesque auctor ullamcorper arcu, quis malesuada nisi feugiat nec. Donec vitae ullamcorper magna. Donec mi tellus, ultricies id justo eu, vulputate volutpat eros. Nam vitae ex in lectus congue mollis. Cras libero metus, pharetra eu sodales id, porta ac quam. Vestibulum sed sagittis metus, vulputate dignissim lacus. Integer rhoncus vitae dui non interdum. Fusce elementum dolor eget molestie feugiat. Sed et leo eu tellus rutrum venenatis in at ante. Curabitur sed orci eu sem hendrerit molestie vitae vel nisi. Duis pellentesque id dui ut posuere.
+detail-description: IXOlist Offering service application belongs to IXOlist's Mass-market features and operates on the same level as Donations and Sales to execute investment & fundraising with best crowdfuning stragies.<br>With IXOlist Offering's campaigns any legal entity realizes world wide product placement through it's token distribution during seeds and series rounds with supported methods like ICO, STO, IEO, DAOICO, DAICO and even Pre-IPO with getting licenses from regulation authorities for selected jurisdictions.
 breadcrumbs-title: Offering
 dappTestnetUrl: https://ixolist-userapp-offering-demo.netlify.app/#/
 ---
