@@ -1,5 +1,5 @@
 name: Overall
 id: mintingDiagramOverall
-iframePath: https://minting-perspectives.ixolist.com/embed/1?diagram=Token_Production_level-2&diagramSelector=false&iframe=mintingDiagramOverall
-scriptPath: https://minting-perspectives.ixolist.com/static/js/structurizr-embed.js
+iframePath: https://dia.ixolist.com/embed/3?diagram=Token_Production_level-2&diagramSelector=false&iframe=mintingDiagramOverall
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
 detailsUrl: /apps/minting/business-processes/overall
