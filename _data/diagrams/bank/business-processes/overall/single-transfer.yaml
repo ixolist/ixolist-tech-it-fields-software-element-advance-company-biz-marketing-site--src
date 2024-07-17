@@ -1,0 +1,5 @@
+name: Single Transfer
+id: bankDiagramSingleTransfer
+iframePath: https://dia.ixolist.com/embed/5?diagram=Dynamic-001&diagramSelector=false&iframe=bankDiagramSingleTransfer
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/bank/business-processes/single-transfer/
