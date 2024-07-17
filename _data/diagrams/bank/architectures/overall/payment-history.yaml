@@ -1,0 +1,5 @@
+name: Payment History
+id: bankDiagramPaymentHistory
+iframePath: https://dia.ixolist.com/embed/4?diagram=Transactions_level-2&diagramSelector=false&iframe=bankDiagramPaymentHistory
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/bank/architectures/payment-history/

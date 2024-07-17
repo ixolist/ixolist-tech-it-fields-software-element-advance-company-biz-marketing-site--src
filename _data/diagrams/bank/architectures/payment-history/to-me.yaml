@@ -1,0 +1,5 @@
+name: To me
+id: bankDiagramPaymentHistoryToMe
+iframePath: https://dia.ixolist.com/embed/4?diagram=Transactions_To_Me_level-3&diagramSelector=false&iframe=bankDiagramPaymentHistoryFromMe
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/bank/architectures/payment-history-to-me/

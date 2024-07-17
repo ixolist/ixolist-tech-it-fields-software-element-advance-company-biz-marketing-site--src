@@ -1,0 +1,5 @@
+name: Asset Management
+id: bankDiagramAssetManagement
+iframePath: https://dia.ixolist.com/embed/4?diagram=Tokens_level-2&diagramSelector=false&iframe=bankDiagramAssetManagement
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/bank/architectures/asset-management/

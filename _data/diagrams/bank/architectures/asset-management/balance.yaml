@@ -1,0 +1,5 @@
+name: Balance
+id: bankDiagramAssetManagementBalance
+iframePath: https://dia.ixolist.com/embed/4?diagram=Tokens_Balance_level-3&diagramSelector=false&iframe=bankDiagramAssetManagementBalance
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/bank/architectures/asset-management-balance/

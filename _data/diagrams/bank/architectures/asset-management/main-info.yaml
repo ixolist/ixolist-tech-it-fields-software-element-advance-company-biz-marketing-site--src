@@ -1,0 +1,5 @@
+name: Main Info
+id: bankDiagramAssetManagementMainInfo
+iframePath: https://dia.ixolist.com/embed/4?diagram=Tokens_Main_Info_level-3&diagramSelector=false&iframe=bankDiagramAssetManagementMainInfo
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/bank/architectures/asset-management-main-info/

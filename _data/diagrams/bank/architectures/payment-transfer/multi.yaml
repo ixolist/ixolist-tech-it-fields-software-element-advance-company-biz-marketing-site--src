@@ -1,0 +1,5 @@
+name: Multi
+id: bankDiagramTokenOperationPaymentRequestMulti
+iframePath: https://dia.ixolist.com/embed/4?diagram=Trasfer_Multi&diagramSelector=false&iframe=bankDiagramTokenOperationPaymentRequestMulti
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/bank/architectures/token-operation-payment-transfer-multi/

@@ -1,0 +1,5 @@
+name: Payment Request
+id: bankDiagramTokenOperationPaymentRequest
+iframePath: https://dia.ixolist.com/embed/4?diagram=payment_Request_level-2&diagramSelector=false&iframe=bankDiagramTokenOperationPaymentRequest
+scriptPath: https://dia.ixolist.com/static/js/structurizr-embed.js
+detailsUrl: /apps/bank/architectures/token-operation-payment-request/
