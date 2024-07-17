@@ -4,7 +4,7 @@ permalink: apps/bank/business-processes/multi-transfer/diagrams
 title: Multi Transfer
 subtitle: Диаграммы
 lang: ru
-page_id: apps-bank-architectures-asset-management-diagrams
+page_id: apps-bank-business-processes-multi-transfer-diagrams
 backUrl: /ru/apps/bank/business-processes/multi-transfer/
 
 description: Diagrams

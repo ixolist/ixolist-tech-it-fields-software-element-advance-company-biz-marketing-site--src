@@ -4,7 +4,7 @@ permalink: apps/bank/business-processes/single-transfer/diagrams
 title: Single Transfer
 subtitle: Диаграммы
 lang: ru
-page_id: apps-bank-architectures-asset-management-diagrams
+page_id:  apps-bank-business-processes-single-transfer-diagrams
 backUrl: /ru/apps/bank/business-processes/single-transfer/
 
 description: Diagrams

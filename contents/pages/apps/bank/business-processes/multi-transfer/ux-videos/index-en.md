@@ -2,7 +2,7 @@
 layout: embed
 permalink: apps/bank/business-processes/multi-transfer/ux-videos
 lang: en
-page_id: apps-bank-architectures-asset-management-video
+page_id: apps-bank-business-processes-multi-transfer-video
 
 
 title: Multi Transfer

@@ -2,7 +2,7 @@
 layout: embed
 permalink: apps/bank/business-processes/multi-transfer/ui-screens
 lang: en
-page_id: apps-bank-architectures-asset-management-screens
+page_id: apps-bank-business-processes-multi-transfer-screens
 
 title: Multi Transfer
 subtitle: UI Screens
