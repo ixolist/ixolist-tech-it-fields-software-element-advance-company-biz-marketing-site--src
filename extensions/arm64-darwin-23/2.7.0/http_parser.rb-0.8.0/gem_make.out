@@ -1,0 +1,16 @@
+current directory: /Users/test/repositories/ixolist-marketing-site/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/Users/test/.rbenv/versions/2.7.5/bin/ruby -I /Users/test/.rbenv/versions/2.7.5/lib/ruby/2.7.0 -r ./siteconf20240723-68779-19eiorr.rb extconf.rb
+creating Makefile
+
+current directory: /Users/test/repositories/ixolist-marketing-site/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/test/repositories/ixolist-marketing-site/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/test/repositories/ixolist-marketing-site/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/opt/homebrew/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20240723-68779-7pyybp

@@ -9,4 +9,4 @@ backUrl: /ru/apps/bank/architectures/overall/
 
 description: Diagrams
 ---
-{% include diagram.html id=site.data.diagrams.bank.architectures.main.overall.id iframePath=site.data.diagrams.bank.architectures.main.overall.iframePath scriptPath=site.data.diagrams.minting.architectures.bank.overall.scriptPath %}
+{% include diagram.html id=site.data.diagrams.bank.architectures.main.overall.id iframePath=site.data.diagrams.bank.architectures.main.overall.iframePath scriptPath=site.data.diagrams.mint.architectures.bank.overall.scriptPath %}

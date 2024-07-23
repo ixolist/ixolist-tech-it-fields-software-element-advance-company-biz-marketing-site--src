@@ -1,0 +1,16 @@
+current directory: /Users/test/repositories/ixolist-marketing-site/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/test/.rbenv/versions/2.7.5/bin/ruby -I /Users/test/.rbenv/versions/2.7.5/lib/ruby/2.7.0 -r ./siteconf20240723-68779-d5ixue.rb extconf.rb
+creating Makefile
+
+current directory: /Users/test/repositories/ixolist-marketing-site/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/test/repositories/ixolist-marketing-site/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/test/repositories/ixolist-marketing-site/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/opt/homebrew/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20240723-68779-5tine2

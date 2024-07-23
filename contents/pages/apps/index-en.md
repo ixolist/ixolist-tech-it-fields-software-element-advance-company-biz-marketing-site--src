@@ -10,7 +10,7 @@ description: IXOlist is a platform built on five service apps
 # services buttons
 offering: Offering
 community: Community
-minting: Minting
+mint: Mint
 bank: Bank
 enterprise: Enterprise
 

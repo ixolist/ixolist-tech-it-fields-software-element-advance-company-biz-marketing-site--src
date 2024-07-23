@@ -1,6 +1,6 @@
 ---
 layout: app
-title: World Token Offering
+title: Размещение
 permalink: apps/offering/
 lang: ru
 page_id: apps-offering

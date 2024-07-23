@@ -18,7 +18,7 @@ second-block-text: We ensure that clients participate in promising cryptocurrenc
 # services buttons
 offering: Offering
 community: Community
-minting: Minting
+mint: Mint
 bank: Bank
 enterprise: Enterprise
 
@@ -27,7 +27,7 @@ services-title: IXOlist is a platform built on <span class="service-apps__btn--l
 
 offering-description: Creating and managing campaigns
 bank-description: Management of financial operations
-minting-description: Register of jurisdictions and their management
+mint-description: Register of jurisdictions and their management
 enterprise-description: Information and management of organizations<br> or companies related to your business or projects
 community-description: Personal profiles and user settings<br> for account management
 see-more: See more

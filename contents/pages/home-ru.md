@@ -16,11 +16,11 @@ learn-more: Узнать больше
 second-block-text: Мы обеспечиваем участие клиентов в криптовалютных проектах, а также создаем мост между крипто миром и развитием бизнеса для большей эффективности и результативности.
 
 # services buttons
-offering: Offering
-community: Community
-minting: Minting
-bank: Bank
-enterprise: Enterprise
+offering: Размещение
+community: Сообщество
+mint: Монетный двор
+bank: Банк
+enterprise: Предприятие
 
 # networks section
 to-use-ixolist: Для использования <a href="/apps">сервисных приложений</a> IXOlist необходима учетная запись <a href="/blockchain">блокчейна</a> и <a href="/web3-authentication-tools">инструмент авторизации Web3</a>, также известный как кошелек.
@@ -35,7 +35,7 @@ services-title: IXOlist — платформа, построенная на <spa
 
 offering-description: Создание и управление кампаниями
 bank-description: Управление финансовыми операциями
-minting-description: Регистрация юрисдикций и управление ими
+mint-description: Регистрация юрисдикций и управление ими
 enterprise-description: Управление организациями<br> или кампаниями, связанными с вашим бизнесом или проектом
 community-description: Управление аккаунтом, профили и пользовательские настройки
 see-more: Узнать больше
