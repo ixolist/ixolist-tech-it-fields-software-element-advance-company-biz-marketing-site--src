@@ -11,5 +11,5 @@ description: Регистрация юрисдикций и управление
 detail-description: Сервисное приложение IXOlist Монетный двор охватывает процесс производства криптомонет, предоставляя юридическим лицам такие возможности, как производство токенов и обращение их цифровых активов и криптовалют в сети <a class="apps-description__link" href="/ru/blockchain">блокчейн</a>.
 diagrams: Диаграммы
 breadcrumbs-title: Mint
-dappTestnetUrl: https://ixolist-userapp-mint-demo.netlify.app/#/
+dappTestnetUrl: https://ixolist-userapp-mint-demo.netlify.app/#/?network=jungle4
 ---
